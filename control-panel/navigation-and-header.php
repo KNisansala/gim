@@ -289,12 +289,12 @@
                     </a>
 
                 </li>
-                <li class="qqq">
+<!--                <li class="qqq">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Attraction</span>
-                    </a>
-                    <ul class="ml-menu">
+                    </a>-->
+<!--                    <ul class="ml-menu">
                         <li>
                             <a href="create-attraction.php">
                                 <i class="material-icons">add</i>
@@ -314,8 +314,8 @@
                             </a>
                         </li>
                     </ul>
-                </li>
-                <li class="qqq">
+                </li>-->
+<!--                <li class="qqq">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Activity</span>
@@ -340,8 +340,8 @@
                             </a>
                         </li>
                     </ul>
-                </li>
-                <li class="qqq">
+                </li>-->
+<!--                <li class="qqq">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Pages</span>
@@ -361,8 +361,8 @@
                         </li>
 
                     </ul>
-                </li>
-                <li>
+                </li>-->
+<!--                <li>
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Tour Package</span>
@@ -387,8 +387,8 @@
                             </a>
                         </li>
                     </ul>
-                </li>
-                 <li>
+                </li>-->
+<!--                 <li>
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Tour Package-Normal</span>
@@ -413,7 +413,7 @@
                             </a>
                         </li>
                     </ul>
-                 </li>
+                 </li>-->
                 <li>
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
@@ -447,7 +447,7 @@
                     </a>
                  
                 </li>-->
-                <li>
+<!--                <li>
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Photo Album</span>
@@ -472,8 +472,8 @@
                             </a>
                         </li>
                     </ul>
-                </li>
-                <li>
+                </li>-->
+<!--                <li>
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Offer</span>
@@ -498,7 +498,7 @@
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li>-->
                 
                  <li class="qqq">
                     <a href="javascript:void(0);" class="menu-toggle">
@@ -527,7 +527,7 @@
                     </ul>
                 </li>
               
-                <li>
+<!--                <li>
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Room</span>
@@ -552,7 +552,7 @@
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li>-->
                 <li>
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>

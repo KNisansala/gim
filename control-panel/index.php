@@ -3,12 +3,12 @@ include_once(dirname(__FILE__) . '/../class/include.php');
 include_once(dirname(__FILE__) . '/auth.php');
 
 $COUNT_COMMENT = count(Comments::pendingComments());
-$COUNT_ACTIVITY = count(Activities::all());
-$COUNT_ATTRACTION = count(Attraction::all());
-$COUNT_ROOM = count(Room::all());
-$SLIDER_IMAGES = count(Slider::all());
-$COUNT_TOUR = count(TourPackage::all());
-$COUNT_GALLERY = count(AlbumPhoto::getAlbumPhotosById(6));
+//$COUNT_ACTIVITY = count(Activities::all());
+//$COUNT_ATTRACTION = count(Attraction::all());
+//$COUNT_ROOM = count(Room::all());
+//$SLIDER_IMAGES = count(Slider::all());
+//$COUNT_TOUR = count(TourPackage::all());
+//$COUNT_GALLERY = count(AlbumPhoto::getAlbumPhotosById(6));
 ?> 
 <!DOCTYPE html>
 <html> 
@@ -120,7 +120,7 @@ $COUNT_GALLERY = count(AlbumPhoto::getAlbumPhotosById(6));
                         <div class="card">
                             <div class="header bg-blue-grey">
                                 <h2>
-                                    TOUR PACKAGES <small>   
+                                    PRODUCT TYPES <small>   
 
                                     </small>
                                 </h2>
@@ -141,7 +141,7 @@ $COUNT_GALLERY = count(AlbumPhoto::getAlbumPhotosById(6));
                         <div class="card">
                             <div class="header bg-blue-grey">
                                 <h2>
-                                    ATTRACTIONS
+                                    PRODUCTS
     <!--                                    <small>  </small>-->
                                 </h2>
                                 <ul class="header-dropdown m-r--5">
@@ -157,12 +157,12 @@ $COUNT_GALLERY = count(AlbumPhoto::getAlbumPhotosById(6));
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<!--                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="card">
                             <div class="header bg-blue-grey">
                                 <h2>
                                     ACTIVITIES
-    <!--                                    <small></small>-->
+                                        <small></small>
                                 </h2>
                                 <ul class="header-dropdown m-r--5">
                                     <div class="number count-to" data-from="0" data-to=" <?php echo $COUNT_ACTIVITY; ?>" data-speed="1500" data-fresh-interval="1"></div>
@@ -176,8 +176,8 @@ $COUNT_GALLERY = count(AlbumPhoto::getAlbumPhotosById(6));
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    </div>-->
+<!--                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="card">
                             <div class="header bg-blue-grey">
                                 <h2>
@@ -198,7 +198,7 @@ $COUNT_GALLERY = count(AlbumPhoto::getAlbumPhotosById(6));
                             </div>
                         </div>
 
-                    </div>
+                    </div>-->
                     <!-- #END# Widgets -->
                     <!-- CPU Usage -->
                     <!--                <div class="row clearfix">
