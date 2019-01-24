@@ -8,8 +8,7 @@ if (isset($_POST['create'])) {
     $VALID = new Validator();
 
     $PRODUCT_TYPE->name = mysql_real_escape_string($_POST['name']);
-    $PRODUCT_TYPE->short_description = mysql_real_escape_string($_POST['short_description']);
-    $PRODUCT_TYPE->description = mysql_real_escape_string($_POST['description']);
+
 
     $dir_dest = '../../upload/product-type/';
 
@@ -37,8 +36,7 @@ if (isset($_POST['create'])) {
 
     $VALID->check($PRODUCT_TYPE, [
         'name' => ['required' => TRUE],
-        'short_description' => ['required' => TRUE],
-        'description' => ['required' => TRUE],
+
         'image_name' => ['required' => TRUE]
     ]);
 
@@ -94,14 +92,10 @@ if (isset($_POST['update'])) {
     $PRODUCT_TYPE->id = $_POST['id'];
     $PRODUCT_TYPE->image_name = $_POST['oldImageName'];
     $PRODUCT_TYPE->name = mysql_real_escape_string($_POST['name']);
-    $PRODUCT_TYPE->short_description = mysql_real_escape_string($_POST['short_description']);
-    $PRODUCT_TYPE->description = mysql_real_escape_string($_POST['description']);
 
     $VALID = new Validator();
     $VALID->check($PRODUCT_TYPE, [
         'name' => ['required' => TRUE],
-        'short_description' => ['required' => TRUE],
-        'description' => ['required' => TRUE],
         'image_name' => ['required' => TRUE]
     ]);
 
