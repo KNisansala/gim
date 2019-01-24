@@ -16,14 +16,11 @@ class ProductType {
     public $id;
     public $name;
     public $image_name;
-    public $short_description;
-    public $description;
-    public $queue;
 
     public function __construct($id) {
         if ($id) {
 
-            $query = "SELECT `id`,`name`,`image_name`,`short_description`,`description`,`queue` FROM `product_type` WHERE `id`=" . $id;
+            $query = "SELECT `id`,`name`,`image_name` FROM `product-type` WHERE `id`=" . $id;
 
             $db = new Database();
 
@@ -32,9 +29,8 @@ class ProductType {
             $this->id = $result['id'];
             $this->name = $result['name'];
             $this->image_name = $result['image_name'];
-            $this->short_description = $result['short_description'];
-            $this->description = $result['description'];
-            $this->queue = $result['queue'];
+
+
 
             return $this;
         }
@@ -42,12 +38,9 @@ class ProductType {
 
     public function create() {
 
-        $query = "INSERT INTO `product_type` (`name`,`image_name`,`short_description`,`description`,`queue`) VALUES  ('"
+        $query = "INSERT INTO `product-type` (`name`,`image_name`) VALUES  ('"
                 . $this->name . "','"
-                . $this->image_name . "', '"
-                . $this->short_description . "', '"
-                . $this->description . "', '"
-                . $this->queue . "')";
+                . $this->image_name . "')";
 
         $db = new Database();
 
@@ -64,7 +57,7 @@ class ProductType {
 
     public function all() {
 
-        $query = "SELECT * FROM `product_type`";
+        $query = "SELECT * FROM `product-type`";
         $db = new Database();
         $result = $db->readQuery($query);
         $array_res = array();
@@ -78,12 +71,9 @@ class ProductType {
 
     public function update() {
 
-        $query = "UPDATE  `product_type` SET "
+        $query = "UPDATE  `product-type` SET "
                 . "`name` ='" . $this->name . "', "
-                . "`image_name` ='" . $this->image_name . "', "
-                . "`short_description` ='" . $this->short_description . "', "
-                . "`description` ='" . $this->description . "', "
-                . "`queue` ='" . $this->queue . "' "
+                . "`image_name` ='" . $this->image_name . "' "
                 . "WHERE `id` = '" . $this->id . "'";
 
         $db = new Database();
@@ -98,13 +88,13 @@ class ProductType {
     }
 
     public function delete() {
-       
-       
+
+
         $this->deletePhotos();
 
         unlink(Helper::getSitePath() . "upload/product-type/" . $this->image_name);
 
-        $query = 'DELETE FROM `product_type` WHERE id="' . $this->id . '"';
+        $query = 'DELETE FROM `product-type` WHERE id="' . $this->id . '"';
 
         $db = new Database();
 
@@ -112,7 +102,7 @@ class ProductType {
     }
 
     public function deletePhotos() {
-        
+
         $PRODUCT = new Product(NULL);
 
         $allPhotos = $PRODUCT->getProductsById($this->id);
@@ -121,7 +111,7 @@ class ProductType {
 
             $IMG = $PRODUCT->image_name = $photo["image_name"];
             unlink(Helper::getSitePath() . "upload/product-type/product/" . $IMG);
-          
+
             $PRODUCT->id = $photo["id"];
             $PRODUCT->delete();
         }

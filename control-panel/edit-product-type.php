@@ -75,20 +75,7 @@ $PRODUCT_TYPE = new ProductType($id);
                                     </div>
 
 
-                                    <div class="col-sm-12">
-                                        <div class="form-group form-float">
-                                            <div class="form-line">
-                                                <input type="text" id="short_description" class="form-control" value="<?php echo $PRODUCT_TYPE->short_description; ?>"  name="short_description">
-                                                <label class="form-label">Short Description</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <label for="description">Description</label>
-                                        <div class="form-line">
-                                            <textarea id="description" name="description" class="form-control" rows="5"><?php echo $PRODUCT_TYPE->description; ?></textarea> 
-                                        </div>
-                                    </div>
+
                                     <div class="col-md-12">
                                         <input type="hidden" id="oldImageName" value="<?php echo $PRODUCT_TYPE->image_name; ?>" name="oldImageName"/>
                                         <input type="hidden" id="id" value="<?php echo $PRODUCT_TYPE->id; ?>" name="id"/>
