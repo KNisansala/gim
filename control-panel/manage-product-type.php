@@ -63,7 +63,7 @@ $PRODUCT_TYPE = new ProductType(NULL);
                                                             <a href="#"  class="delete-product-type" data-id="<?php echo $product['id']; ?>"> <button class="glyphicon glyphicon-trash delete-btn"></button></a>
                                                             <a href="edit-product-type.php?id=<?php echo $product['id']; ?>"> <button class="glyphicon glyphicon-pencil edit-btn"></button></a>
                                                             <a href="arrange-products.php?id=<?php echo $product['id']; ?>">  <button class="glyphicon glyphicon-random arrange-btn"></button></a>
-                                                            <a href="view-products.php?id=<?php echo $product['id']; ?>">  <button class="glyphicon glyphicon-picture arrange-btn"></button></a>
+                                                            <a href="view-products.php?id=<?php echo $product['id']; ?>">  <button class="glyphicon glyphicon-briefcase arrange-btn product-btn"></button></a>
                                                         </div>
                                                     </div>
                                                 </div>
