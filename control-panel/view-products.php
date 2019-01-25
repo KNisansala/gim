@@ -25,6 +25,7 @@ $PRODUCT_TYPE = new ProductType($id);
         <link href="plugins/sweetalert/sweetalert.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet">
         <link href="css/themes/all-themes.css" rel="stylesheet" />
+        <link href="plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css" rel="stylesheet">
     </head>
 
     <body class="theme-red">
@@ -94,8 +95,54 @@ $PRODUCT_TYPE = new ProductType($id);
                                 <div class="row">
                                 </div>
                                 <hr/>
+                                
+                               <div>
+                                    <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
+                                        <thead>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Product Name</th>
+                                                <th>Product Type</th>
+                                                <th>Options</th>
+                                            </tr>
+                                        </thead>
+                                        <tfoot>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Product Name</th>
+                                                <th>Product Type</th>
+                                                <th>Options</th>
+                                            </tr>
+                                        </tfoot>
+                                        <tbody>
+                                            <?php
+                                            foreach (Product::all() as $key => $product) {
+                                                $TYPE = new ProductType($product['type']);
+                                                $key++;
+                                                ?>
+                                                <tr id="row_<?php echo $product['id']; ?>">
+                                                    <td><?php echo $key ?></td>
+                                                    <td><?php echo $product['name']; ?></td>
+                                                    <td><?php echo $TYPE->name; ?></td>
+                                                    <td> 
+                                                        <a href="edit-product.php?id=<?php echo $product['id']; ?>"> <button class="glyphicon glyphicon-pencil edit-btn"></button></a>
+                                                        |
+                                                        <a href="arrange-products.php?id=<?php echo $product['id']; ?>"> <button class="glyphicon glyphicon-random arrange-btn"></button></a>
+                                                        <!--<a href="view-products.php?id=<?php echo $product['id']; ?>">  <button class="glyphicon glyphicon-briefcase arrange-btn product-btn"></button></a>-->
+                                                        | 
+                                                        
+                                                            <a href="#" class="delete-product" data-id="<?php echo $product['id']; ?>"> <button class="glyphicon glyphicon-trash delete-btn"></button></a>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <?php
+                                            }
+                                            ?>  
+                                        </tbody>
+                                    </table>
+                                </div>
                            
-                                <div class="row clearfix">
+<!--                                <div class="row clearfix">
                                     <?php
                                     $PRODUCT = Product::getProductsById($id);
                                     if (count($PRODUCT) > 0) {
@@ -121,7 +168,7 @@ $PRODUCT_TYPE = new ProductType($id);
                                         <b style="padding-left: 15px;">No Products in the database.</b> 
                                     <?php } ?> 
 
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -134,7 +181,7 @@ $PRODUCT_TYPE = new ProductType($id);
         </section>
 
         <!-- Jquery Core Js -->
-        <script src="plugins/jquery/jquery.min.js"></script>
+<!--        <script src="plugins/jquery/jquery.min.js"></script>
         <script src="plugins/bootstrap/js/bootstrap.js"></script> 
         <script src="plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
         <script src="plugins/node-waves/waves.js"></script>
@@ -146,6 +193,37 @@ $PRODUCT_TYPE = new ProductType($id);
         <script src="plugins/bootstrap-notify/bootstrap-notify.js"></script>
         <script src="js/pages/ui/dialogs.js"></script>
 
+        <script src="delete/js/service-photo.js" type="text/javascript"></script>
+        <script src="tinymce/js/tinymce/tinymce.min.js"></script>
+        <script src="delete/js/product.js" type="text/javascript"></script>-->
+        
+        <!-- Jquery DataTable Plugin Js new-->
+
+        
+        <script src="plugins/jquery/jquery.min.js"></script>
+        <script src="plugins/bootstrap/js/bootstrap.js"></script>
+        <script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
+        <script src="plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+        <script src="plugins/node-waves/waves.js"></script>
+        <script src="plugins/jquery-datatable/jquery.dataTables.js"></script>
+        <script src="plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js"></script>
+        <script src="plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js"></script>
+        <script src="plugins/jquery-datatable/extensions/export/buttons.flash.min.js"></script>
+        <script src="plugins/jquery-datatable/extensions/export/jszip.min.js"></script>
+        <script src="plugins/jquery-datatable/extensions/export/pdfmake.min.js"></script>
+        <script src="plugins/jquery-datatable/extensions/export/vfs_fonts.js"></script>
+        <script src="plugins/jquery-datatable/extensions/export/buttons.html5.min.js"></script>
+        <script src="plugins/jquery-datatable/extensions/export/buttons.print.min.js"></script>
+        <script src="js/admin.js"></script>
+        <script src="js/pages/tables/jquery-datatable.js"></script>
+        <script src="js/demo.js"></script>
+
+        <script src="plugins/sweetalert/sweetalert.min.js"></script>
+        <script src="plugins/bootstrap-notify/bootstrap-notify.js"></script>
+        <script src="js/pages/ui/dialogs.js"></script>
+        <script src="js/demo.js"></script>
+        <script src="delete/js/product-type.js" type="text/javascript"></script>
+        <script src="js/add-new-ad.js" type="text/javascript"></script>
         <script src="delete/js/service-photo.js" type="text/javascript"></script>
         <script src="tinymce/js/tinymce/tinymce.min.js"></script>
         <script src="delete/js/product.js" type="text/javascript"></script>
