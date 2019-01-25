@@ -46,6 +46,8 @@ $PRODUCT_TYPE = new ProductType(NULL);
                             </div>
                             <div class="body">
                                 <!--                                <div class="table-responsive">-->
+                               
+
                                 <div>
                                     <div class="row clearfix">
                                         <?php
