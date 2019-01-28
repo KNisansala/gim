@@ -13,18 +13,32 @@ if (isset($_POST['create'])) {
     $dir_dest = '../../upload/product-type/';
 
     $handle = new Upload($_FILES['image']);
-
+    
+    $img = Helper::randamId();
     $imgName = null;
 
     if ($handle->uploaded) {
         $handle->image_resize = true;
         $handle->file_new_name_ext = 'jpg';
         $handle->image_ratio_crop = 'C';
-        $handle->file_new_name_body = Helper::randamId();
+        $handle->file_new_name_body = $img;
         $handle->image_x = 900;
         $handle->image_y = 500;
 
         $handle->Process($dir_dest);
+
+        if ($handle->processed) {
+            $info = getimagesize($handle->file_dst_pathname);
+            $imgName = $handle->file_dst_name;
+        }
+        $handle->image_resize = true;
+        $handle->file_new_name_ext = 'jpg';
+        $handle->image_ratio_crop = 'C';
+        $handle->file_new_name_body = $img;
+        $handle->image_x = 350;
+        $handle->image_y = 350;
+
+        $handle->Process($dir_dest.'thumb/');
 
         if ($handle->processed) {
             $info = getimagesize($handle->file_dst_pathname);
@@ -36,7 +50,6 @@ if (isset($_POST['create'])) {
 
     $VALID->check($PRODUCT_TYPE, [
         'name' => ['required' => TRUE],
-
         'image_name' => ['required' => TRUE]
     ]);
 
@@ -80,6 +93,21 @@ if (isset($_POST['update'])) {
         $handle->image_y = 500;
 
         $handle->Process($dir_dest);
+
+        if ($handle->processed) {
+            $info = getimagesize($handle->file_dst_pathname);
+            $imgName = $handle->file_dst_name;
+        }
+        $handle->image_resize = true;
+        $handle->file_new_name_body = TRUE;
+        $handle->file_overwrite = TRUE;
+        $handle->file_new_name_ext = FALSE;
+        $handle->image_ratio_crop = 'C';
+        $handle->file_new_name_body = $_POST ["oldImageName"];
+        $handle->image_x = 350;
+        $handle->image_y = 350;
+
+        $handle->Process($dir_dest.'thumb/');
 
         if ($handle->processed) {
             $info = getimagesize($handle->file_dst_pathname);

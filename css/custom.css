@@ -1,3 +1,17 @@
 /*===================================== 
 YOU CAN WRIGHT CUSTOME CSS 
 ======================================*/
+
+.descrip{
+    height: 260px;
+    text-align: justify;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.infomation-box p{
+    margin-top: -10px;
+}
+.infomation-boxh4{
+    margin-bottom: 0px;
+}
+   
