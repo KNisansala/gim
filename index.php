@@ -1,3 +1,6 @@
+<?php
+include_once(dirname(__FILE__) . '/class/include.php');
+?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -152,7 +155,7 @@
                     </div>
                 </div>   
                 <!-- ABOUT COMPANY SECTION END -->   
-                
+
 
                 <!-- WHY CHOOSE US SECTION START  -->
                 <div class="section-full bg-gray p-t80 p-b120 bg-no-repeat bg-left-center" style="background-image:url(images/background/why-choose-pic-2.png);">
@@ -250,15 +253,15 @@
                     </div>
                 </div>
                 <!-- WHY CHOOSE US SECTION END  --> 
-     
-     <!-- SERVICES START  -->         
+
+                <!-- SERVICES START  -->         
                 <div class="section-full bg-white p-t80 p-b50 scale-bg-top scale-bg-bottom">
                     <div class="container">
                         <!-- IMAGE CAROUSEL START -->
 
                         <!-- TITLE START -->
                         <div class="section-head text-center">
-                            <h2 class="text-uppercase">Our Product</h2>
+                            <h2 class="text-uppercase">Our Products</h2>
                             <div class="wt-separator-outer">
                                 <div class="wt-separator style-square">
                                     <span class="separator-left bg-primary"></span>
@@ -274,7 +277,7 @@
 
                             <div class="owl-carousel Home-services-carousel owl-btn-vertical-center">
 
-                                <div class="item">
+<!--                                <div class="item">
                                     <div class="col-md-12 col-sm-4 col-xs-6 col-xs-100pc m-b30">
                                         <div class="wt-box wt-product-box">
                                             <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
@@ -303,13 +306,16 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
 
-                                <div class="item">
+                                <?php
+                                $PRODUCT_TYPE = ProductType::all();
+                                foreach ($PRODUCT_TYPE as $type) {
+                                    ?>
                                     <div class="col-md-12 col-sm-4 col-xs-6 col-xs-100pc m-b30">
                                         <div class="wt-box wt-product-box">
                                             <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
-                                                <img src="images/products/2.jpg" alt="">
+                                                <img src="upload/product-type/thumb/<?php echo $type['image_name']; ?>" alt="">
                                                 <div class="overlay-bx">
                                                     <div class="overlay-icon">
                                                         <a href="javascript:void(0);">
@@ -324,111 +330,23 @@
                                             <div class="wt-info  text-center">
                                                 <div class="p-a10 bg-white">
                                                     <h4 class="wt-title">
-                                                        <a href="javascript:;">Six Martines</a>
+                                                        <!--<a href="javascript:;">Five Martines</a>-->
+                                                        <a href="products.php?id=<?php echo $type['id']; ?>"><?php echo $type['name']; ?></a>
                                                     </h4>
 
                                                 </div>
+                                                
                                                 <div class="p-t10">
-                                                    <button class="site-button  m-r15" type="button">View <i class="fa fa-angle-double-right"></i></button>
+                                                    <a href="products.php?id=<?php echo $type['id']; ?>">
+                                                    <button class="site-button  m-r15" type="button">View  <i class="fa fa-angle-double-right "></i> </button>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-
-                                <div class="item">
-                                    <div class="col-md-12 col-sm-4 col-xs-6 col-xs-100pc m-b30">
-                                        <div class="wt-box wt-product-box">
-                                            <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
-                                                <img src="images/products/3.jpg" alt="">
-                                                <div class="overlay-bx">
-                                                    <div class="overlay-icon">
-                                                        <a href="javascript:void(0);">
-                                                            <i class="fa fa-cart-plus wt-icon-box-xs"></i>
-                                                        </a>
-                                                        <a class="mfp-link" href="javascript:void(0);">
-                                                            <i class="fa fa-heart wt-icon-box-xs"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wt-info  text-center">
-                                                <div class="p-a10 bg-white">
-                                                    <h4 class="wt-title">
-                                                        <a href="javascript:;">Seven Martines</a>
-                                                    </h4>
-
-                                                    <div class="p-t10">
-                                                        <button class="site-button  m-r15" type="button">View <i class="fa fa-angle-double-right"></i></button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <div class="col-md-12 col-sm-4 col-xs-6 col-xs-100pc m-b30">
-                                        <div class="wt-box wt-product-box">
-                                            <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
-                                                <img src="images/products/4.jpg" alt="">
-                                                <div class="overlay-bx">
-                                                    <div class="overlay-icon">
-                                                        <a href="javascript:void(0);">
-                                                            <i class="fa fa-cart-plus wt-icon-box-xs"></i>
-                                                        </a>
-                                                        <a class="mfp-link" href="javascript:void(0);">
-                                                            <i class="fa fa-heart wt-icon-box-xs"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wt-info  text-center">
-                                                <div class="p-a10 bg-white">
-                                                    <h4 class="wt-title">
-                                                        <a href="javascript:;">Eight Martines</a>
-                                                    </h4>
-
-                                                    <div class="p-t10">
-                                                        <button class="site-button  m-r15" type="button">View  <i class="fa fa-angle-double-right"></i></button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-md-12 col-sm-4 col-xs-6 col-xs-100pc m-b30">
-                                        <div class="wt-box wt-product-box">
-                                            <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
-                                                <img src="images/products/5.jpg" alt="">
-                                                <div class="overlay-bx">
-                                                    <div class="overlay-icon">
-                                                        <a href="javascript:void(0);">
-                                                            <i class="fa fa-cart-plus wt-icon-box-xs"></i>
-                                                        </a>
-                                                        <a class="mfp-link" href="javascript:void(0);">
-                                                            <i class="fa fa-heart wt-icon-box-xs"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wt-info  text-center">
-                                                <div class="p-a10 bg-white">
-                                                    <h4 class="wt-title">
-                                                        <a href="javascript:;">Eight Martines</a>
-                                                    </h4>
-
-                                                    <div class="p-t10">
-                                                        <button class="site-button  m-r15" type="button">View  <i class="fa fa-angle-double-right"></i></button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
+                                    <?php
+                                }
+                                ?>
                             </div>
 
                         </div>
@@ -497,31 +415,31 @@
                     </div>
                 </div>
                 <!-- TESTIMONIAL SECTION START -->
-            
-              
- <div class="call-to-action-wrap bg-primary bg-repeat" style="background-image:url(images/background/bg-4.png);">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-8">
-                            <div class="call-to-action-left p-tb20 p-r50">
-                                <h4 class="text-uppercase m-b10">We are ready to build your dream tell us more about your project</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra mauris eget tortor.</p>
+
+
+                <div class="call-to-action-wrap bg-primary bg-repeat" style="background-image:url(images/background/bg-4.png);">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-8">
+                                <div class="call-to-action-left p-tb20 p-r50">
+                                    <h4 class="text-uppercase m-b10">We are ready to build your dream tell us more about your project</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra mauris eget tortor.</p>
+                                </div>
                             </div>
-                        </div>
-                        
-                        <div class="col-md-3">
-                            <div class="call-to-action-right p-tb30">
-                                <a href="contact-1.html" class="site-button-secondry text-uppercase font-weight-600">
-                                    Contact us  <i class="fa fa-angle-double-right"></i>
-                                </a>
+
+                            <div class="col-md-3">
+                                <div class="call-to-action-right p-tb30">
+                                    <a href="contact-1.html" class="site-button-secondry text-uppercase font-weight-600">
+                                        Contact us  <i class="fa fa-angle-double-right"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                 </div>
-            </div>
+                </div>
             </div>
             <!-- CONTENT END -->
-            
+
 
             <!-- FOOTER START -->
             <?php include './footer.php'; ?>
