@@ -108,7 +108,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <div class="col-md-6 col-sm-6 col-xs-6 col-xs-100pc p-tb20">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
-                                                <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-truck" aria-hidden="true"></i></a>
+                                                <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-truck btn-icon" aria-hidden="true"></i></a>
                                             </div>
                                             <div class="icon-content">
                                                 <h5 class="wt-tilte text-uppercase m-b0">Transport</h5>
@@ -119,7 +119,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <div class="col-md-6 col-sm-6 col-xs-6 col-xs-100pc p-tb20 ">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
-                                                <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-Building" aria-hidden="true"></i></a>
+                                                <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-building btn-icon" aria-hidden="true"></i></a>
                                             </div>
                                             <div class="icon-content">
                                                 <h5 class="wt-tilte text-uppercase m-b0">Building</h5>
@@ -130,7 +130,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <div class="col-md-6 col-sm-6 col-xs-6 col-xs-100pc p-tb20 ">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
-                                                <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-gavel" aria-hidden="true"></i></a>
+                                                <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-gavel btn-icon" aria-hidden="true"></i></a>
                                             </div>
                                             <div class="icon-content">
                                                 <h5 class="wt-tilte text-uppercase m-b0 ">Digging</h5>
@@ -141,7 +141,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <div class="col-md-6 col-sm-6 col-xs-6 col-xs-100pc p-tb20 ">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
-                                                <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+                                                <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-picture-o btn-icon" aria-hidden="true"></i></a>
                                             </div>
                                             <div class="icon-content">
                                                 <h5 class="wt-tilte text-uppercase m-b0">interior</h5>
@@ -379,7 +379,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                         <div class="testimonial-pic  radius shadow"><img src="images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
                                         <div class="testimonial-detail">
                                             <strong class="testimonial-name">Steve Jobs</strong>
-                                            <span class="testimonial-position">Cfo Loop Inc</span>
+                                            <span class="testimonial-position short-para">Cfo Loop Inc</span>
                                         </div>
                                         <div class="testimonial-text">
                                             <p> Excellent Customer support!.The template itself is very extended. simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy  simply dummy text. Thanks a lot for such great features, pages, shortcodes and home variations. Incredible Job. And the best of all, great introductions Thanks a lot for such great features, pages, shortcodes and home variations. Incredible Job. And the best of all, great introductions</p>
@@ -477,7 +477,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                             </form>
                         </div>
                         <div class="modal-footer text-center">
-                            <div class="text-center"><img src="images/logo-dark.png" alt=""></div>
+                            <div class="text-center"><img src="images/gim-logo-1.png" alt=""></div>
                         </div>
                     </div>
                 </div>
@@ -517,7 +517,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                             </form>
                         </div>
                         <div class="modal-footer text-center">
-                            <div class="text-center"><img src="images/logo-dark.png" alt=""></div>
+                            <div class="text-center"><img src="images/gim-logo-1.png" alt=""></div>
                         </div>
                     </div>
                 </div>

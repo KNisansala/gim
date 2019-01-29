@@ -188,7 +188,9 @@
                                  font-weight: 700; 
                                  color: rgba(255, 255, 255, 1.00);
                                  border-width:0px;">
-                                <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary">Lorem ipsum</span> dolor sit</span>
+                                <div class="title1">
+                                <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary headding">Lorem ipsum</span> dolor sit</span>
+                                </div>
                             </div>
 
                             <!-- LAYER NR. 3 [ for paragraph] -->
@@ -245,7 +247,7 @@
                                  data-paddingleft="[0,0,0,0]"
 
                                  style="z-index:13; text-transform:uppercase; font-weight:700;">
-                                <a href="javascript:;" class="site-button button-lg  m-r15">Order Now... <i class="fa fa-angle-double-right"></i></a>
+                                <a href="javascript:;" class="site-button order-btn button-lg  m-r15">Order Now... <i class="fa fa-angle-double-right"></i></a>
                             </div>   
 
                         </li>
