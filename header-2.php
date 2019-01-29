@@ -27,7 +27,7 @@
                     <div class="container">
                         <div class="logo-header">
                             <a href="index.php">
-                                <img src="images/logo-dark.png" width="171" height="49" alt="" />
+                                <img src="images/gim-logo-1.png" width="171" height="49" alt="" />
                             </a>
                         </div>
                         <!-- NAV Toggle Button -->
@@ -109,7 +109,7 @@
                             </form>
                         </div>
                         <!-- MAIN Vav -->
-                        <div class="header-nav navbar-collapse collapse ">
+                        <div class="header-nav navbar-collapse collapse main-title">
                             <ul class=" nav navbar-nav">
                                  <li><a href="./">Home</a></li>
                                  <li><a href="about.php">About us</a></li>

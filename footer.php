@@ -124,7 +124,7 @@
                        <div class="col-md-3 col-sm-6  p-tb20">
                            <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
                                 <div class="icon-md text-primary">
-                                    <span class="iconmoon-travel"></span>
+                                    <span class="iconmoon-travel footer-icon"></span>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0">Address</h5>
@@ -135,7 +135,7 @@
                        <div class="col-md-3 col-sm-6  p-tb20 ">
                            <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix ">
                                 <div class="icon-md text-primary">
-                                    <span class="iconmoon-smartphone-1"></span>
+                                    <span class="iconmoon-smartphone-1 footer-icon"></span>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0">Phone</h5>
@@ -147,7 +147,7 @@
                        <div class="col-md-3 col-sm-6  p-tb20">
                            <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
                                 <div class="icon-md text-primary">
-                                    <span class="iconmoon-fax"></span>
+                                    <span class="iconmoon-fax footer-icon"></span>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0">Fax</h5>
@@ -159,7 +159,7 @@
                        <div class="col-md-3 col-sm-6 p-tb20">
                            <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
                                 <div class="icon-md text-primary">
-                                    <span class="iconmoon-email"></span>
+                                    <span class="iconmoon-email footer-icon"></span>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0">Email</h5>
@@ -179,7 +179,7 @@
                 <div class="container p-t30">
                     <div class="row">
                         <div class="wt-footer-bot-left">
-                            <span class="copyrights-text">© 2019 GIM. All Rights Reserved. Designed By Synotec.lk.</span>
+                            <span class="copyrights-text">© 2019 GIM. All Rights Reserved. Designed By Synotec Pvt.Ltd</span>
                         </div>
                         <div class="wt-footer-bot-right">
                             <ul class="copyrights-nav pull-right"> 

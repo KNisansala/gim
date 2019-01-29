@@ -33,15 +33,15 @@
         <div class="container">
             <div class="logo-header">
                 <a href="index.php">
-                    <img src="images/GIM-1.png" width="216" height="37" alt="" />
+                    <img src="images/edited-image.png" width="216" height="37" alt="" />
                 </a>
             </div>
-            <div class="header-info">
+            <div class="header-info header-info-color">
                 <ul>
                     <li>
                         <div>
                             <div class="icon-sm">
-                                <span class="icon-cell  text-primary"><i class="iconmoon-travel"></i></span>
+                                <span class="icon-cell  text-primary"><i class="iconmoon-travel nav-icon"></i></span>
                             </div>
                             <div class="icon-content">
                                 <strong>Mail Us</strong>
@@ -52,7 +52,7 @@
                     <li>
                         <div>
                             <div class="icon-sm">
-                                <span class="icon-cell  text-primary"><i class="iconmoon-smartphone-1"></i></span>
+                                <span class="icon-cell  text-primary"><i class="iconmoon-smartphone-1 nav-icon"></i></span>
                             </div>
                             <div class="icon-content">
                                 <strong>Call Us</strong>
@@ -63,7 +63,7 @@
                     <li class="btn-col-last">
                         <div>
                             <div class="icon-sm">
-                                <span class="icon-cell  text-primary"><i class="iconmoon-email"></i></span>
+                                <span class="icon-cell  text-primary"><i class="iconmoon-email nav-icon"></i></span>
                             </div>
                             <div class="icon-content">
                                 <strong>Opening Time </strong>
@@ -78,7 +78,7 @@
 
     <!-- Search Form -->
     <div class="sticky-header main-bar-wraper">
-        <div class="main-bar header-botton nav-bg-secondry">
+        <div class="main-bar header-botton nav-bg-secondry header-bar">
             <div class="container">
                 <!-- NAV Toggle Button -->
                 <button data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggle collapsed">
@@ -161,7 +161,7 @@
                 </div>
 
                 <!-- MAIN Nav -->
-                <div class="header-nav navbar-collapse collapse ">
+                <div class="header-nav navbar-collapse collapse main-title">
                     <ul class=" nav navbar-nav">
                         <li><a href="./">Home</a></li>
                         <li><a href="about.php">About us</a></li>
