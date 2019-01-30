@@ -824,7 +824,7 @@ strong {
 	2. text vertical align
 ------------------------------------ */
 .v-align-t { 
-	vertical-align:top;
+	vertical-align: central;
 }
 .v-align-m { 
 	vertical-align:middle;

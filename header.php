@@ -31,10 +31,12 @@
     <!-- Search Form -->
     <div class="header-middle bg-white">
         <div class="container">
-            <div class="logo-header">
+            <div class="logo-header hidden-xs">
+                <div class="logo-header">
                 <a href="index.php">
                     <img src="images/edited-image.png" width="216" height="37" alt="" />
                 </a>
+            </div>
             </div>
             <div class="header-info header-info-color">
                 <ul>

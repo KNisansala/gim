@@ -16,8 +16,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <meta name="description" content="" />
 
         <!-- FAVICONS ICON -->
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+        <link rel="icon" href="images/fig-logo-gim.png" type="image/x-icon" />
+        <link rel="shortcut icon" type="image/x-icon" href="images/fig-logo-gim.png" />
 
         <!-- PAGE TITLE HERE -->
         <title> Home Page | GIM Genaral Trading & Construction </title>
@@ -312,7 +312,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                 $PRODUCT_TYPE = ProductType::all();
                                 foreach ($PRODUCT_TYPE as $type) {
                                     ?>
-                                    <div class="col-md-12 col-sm-4 col-xs-6 col-xs-100pc m-b30">
+                                    <div class=" col-sm-12 col-xs-12 col-xs-100pc m-b30">
                                         <div class="wt-box wt-product-box">
                                             <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
                                                 <img src="upload/product-type/thumb/<?php echo $type['image_name']; ?>" alt="">
