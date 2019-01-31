@@ -135,7 +135,7 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
                                         <td width="5%">&nbsp;</td>
                                         <td width="90%" valign="middle">
                                             <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
-                                               ' . $message . '
+                                               ' . $visitor_phone . '
                                             </font>
                                         </td>
                                         <td width="5%">&nbsp;</td>
@@ -312,7 +312,7 @@ $company_message = '
                                         <td width="5%">&nbsp;</td>
                                         <td width="90%" valign="middle">
                                             <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
-                                               ' . $message . '
+                                               ' . $visitor_phone . '
                                             </font>
                                         </td>
                                         <td width="5%">&nbsp;</td>

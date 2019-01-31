@@ -22,16 +22,6 @@ if ($_SESSION['CAPTCHACODE'] != $_POST['captchacode']) {
 }
 
 //----------------------Visitor Information---------------------
-
-
-//$full_name = $_POST['name'];
-//$visitor_email = $_POST['email'];
-//$message = $_POST['message'];
-//$captchacode = $_POST['captchacode'];
-//$country = $_POST['country'];
-//$subject = $_POST['subject'];
-//$contact_number = $_POST['$contact_number'];
-
 $visitor_name = $_POST['visitor_name'];
 $visitor_email = $_POST['visitor_email'];
 $visitor_country = $_POST['country'];

@@ -47,7 +47,7 @@
         <link rel="stylesheet" type="text/css" href="css/switcher.css">
         <!-- contact-us -->
         <link href="contact-us-form/style.css" rel="stylesheet" type="text/css"/>
-        
+
 
         <!-- GOOGLE FONTS -->
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
@@ -167,143 +167,65 @@
                                     <div class="p-a30 bg-gray">
 
                                         <!--<form class="cons-contact-form" method="post" action="#">-->
-<div class="contact-form">
-                            <div class="row">
-                                <div class="col-sm-6 col-xs-12">
-                                    <input name="txtName" id="txtName" class="form-control input-validater" placeholder="Your Name" type="text">
-                                    <span id="spanName" class="notvalidated" style="display: none;">This field can not be empty</span>
-                                </div>
-                                <div class="col-sm-6 col-xs-12">
-                                    <input name="txtEmail" id="txtEmail" class="form-control input-validater" placeholder="E-mail" type="text">
-                                    <span id="spanEmail" class="notvalidated" style="display: none;">You have entered an invalid Email Address</span>
-                                </div>
-                                <div class="col-sm-6 col-xs-12">
-                                    <input name="txtCountry" id="txtCountry" class="form-control input-validater" placeholder="Your Country" type="text">
-                                    <span id="spanCountry" class="notvalidated" style="display: none;">This field can not be empty</span>
-                                </div>
-                                <div class="col-sm-6 col-xs-12">
-                                    <input name="txtPhone" id="txtPhone" class="form-control input-validater" placeholder="Contact number" type="text">
-                                </div>
+                                        <div class="contact-form">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-xs-12">
+                                                    <input name="txtName" id="txtName" class="form-control input-validater" placeholder="Your Name" type="text">
+                                                    <span id="spanName" class="notvalidated" style="display: none;">This field can not be empty</span>
+                                                </div>
+                                                <div class="col-sm-6 col-xs-12">
+                                                    <input name="txtEmail" id="txtEmail" class="form-control input-validater" placeholder="E-mail" type="text">
+                                                    <span id="spanEmail" class="notvalidated" style="display: none;">Invalid Email Address</span>
+                                                </div>
+                                                <div class="col-sm-6 col-xs-12">
+                                                    <input name="txtCountry" id="txtCountry" class="form-control input-validater" placeholder="Your Country" type="text">
+                                                    <span id="spanCountry" class="notvalidated" style="display: none;">This field can not be empty</span>
+                                                </div>
+                                                <div class="col-sm-6 col-xs-12">
+                                                    <input name="txtPhone" id="txtPhone" class="form-control input-validater" placeholder="Contact number" type="text">
+                                                    <span id="spanPhone" class="notvalidated" style="display: none;">This field can not be empty</span>
+                                                </div>
 
-                                <div class="col-sm-12 col-xs-12">
-                                    <input name="txtSubject" id="txtSubject" class="form-control input-validater" placeholder="subject" type="text">
-                                    <span id="spanSubject" class="notvalidated" style="display: none;">This field can not be empty</span>
+                                                <div class="col-sm-12 col-xs-12">
+                                                    <input name="txtSubject" id="txtSubject" class="form-control input-validater" placeholder="subject" type="text">
+                                                    <span id="spanSubject" class="notvalidated" style="display: none;">This field can not be empty</span>
 
-                                    <textarea name="txtMessage" id="txtMessage" rows="6" class="form-control" placeholder="write message here"></textarea>
-                                    <span id="spanMessage" class="notvalidated" style="display: none;">This field can not be empty</span>
+                                                    <textarea name="txtMessage" id="txtMessage" rows="6" class="form-control msg-row" placeholder="write message here"></textarea>
+                                                    <div class="row form-group">
+                                                        <div class="col-sm-6 col-xs-12">
+                                                            <br>
+                                                            <label for="comment">Security Code:</label>
+                                                            <span id="star">*</span> 
+                                                            <input name="captchacode" id="captchacode" class="form-control input-validater" placeholder="Enter the security code >> " type="text">
+                                                            <span id="capspan"></span> 
+                                                        </div>   
+                                                        <div class="col-sm-6 col-xs-12 capmargin "> 
+                                                            <span><?php include("./contact-us-form/captchacode-widget.php"); ?></span>
+                                                            <img src="contact-us-form/img/checking.gif" id="checking"/>              
+                                                        </div>  
 
-                                    <div class="row form-group">
-                                        <div class="col-sm-6 col-xs-12">
-                                            <br>
-                                            <label for="comment">Security Code:</label>
-                                            <span id="star">*</span> 
-                                            <input name="captchacode" id="captchacode" class="form-control input-validater" placeholder="Enter the security code >> " type="text">
-                                            <span id="capspan"></span> 
-                                        </div>   
-                                        <div class="col-sm-6 col-xs-12 capmargin "> 
-                                            <span><?php include("./contact-us-form/captchacode-widget.php"); ?></span>
-                                             <img src="contact-us-form/img/checking.gif" id="checking"/>              
+                                                        <div class="col-xs-12 col-sm-6 ">
 
-<!--<img src="contact-form/Generate_Captcha_Code.php?rand=31195" id="captchaimg" style=" margin-top: 17px;">-->  
+                                                            <div class="col-sm-4">
+                                                                <div class="div-check">
 
-<!--<a href="javascript: refreshCaptcha();" class="contact-details">
-    <div class="refreshbox">
-        <div class="refresh-img">        
-            <img style="border:none;" src="contact-form/img/refresh.png" title="Click to change the code">
-        </div>
-    </div>
-</a>
 
-<script language="JavaScript" type="text/javascript">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-8 text-right">
 
-    function refreshCaptcha() {
-        var img = document.images['captchaimg'];
-        var c = Math.round(Math.random() * 10000);
-        img.src = img.src.substring(0, img.src.lastIndexOf("?")) + "?rand=" + c;
-    }
-
-</script>-->
- 
-                                        </div>  
-
-                                        <div class="col-xs-12 col-sm-6 ">
-                                            
-                                            <div class="col-sm-4">
-                                                <div class="div-check">
-                                                    
-                                                    <!--<img src="contact-form/img/checking.gif" id="checking">-->
-                                                    <!--<img src="contact-us-form/img/checking.gif" id="checking"/>-->
+                                                            </div> 
+                                                        </div>
+                                                    </div> 
+                                                    <div class="btncolor5">
+                                                        <!--<button type="submit" id="btnSubmit" class="button border with-icon submit">SEND YOUR MESSAGE</button>-->
+                                                        <button type="submit" id="btnSubmit" class="button primary site-button  m-r15 btn-submit"><i class="fa fa-send btn-send"></i>Submit</button>
+                                                        <div id="dismessage" align="center"></div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-8 text-right">
-
-                                            </div> 
                                         </div>
-                                    </div> 
-                                    <div class="btncolor5">
-                                    <!--<button type="submit" id="btnSubmit" class="button border with-icon submit">SEND YOUR MESSAGE</button>-->
-                                    <button type="submit" id="btnSubmit" class="button primary site-button  m-r15 btn-submit"><i class="fa fa-send btn-send"></i>Submit</button>
-                                    <div id="dismessage" align="center"></div>
-                                    </div>
-                                    </div>
-                            </div>
-                        </div>
-<!--                                        <div class="row">
 
-                                            <div class="col-md-12 details">
-                                                <div class="form-group">
-                                                    <div class="input-group">
-
-                                                        <input name="txtName" type="text" required class="form-control form-control-1" placeholder="Name" id="txtName">
-                                                        <span class="input-group-addon" id="spanName"><i class="fa fa-user btn-faicon"></i></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <div class="input-group">
-
-                                                        <input name="txtEmail" type="text" class="form-control form-control-1" required placeholder="Email" id="txtEmail">
-                                                        <span class="input-group-addon" id="spanEmail"><i class="fa fa-envelope btn-faicon email-row"></i></span>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <div class="input-group">
-
-                                                        <textarea name="txtMessage" rows="1" class="form-control form-control-1" required placeholder="Message" id="txtMessage"></textarea>
-                                                        <span class="input-group-addon v-align-t" id="spanMessage"><i class="fa fa-pencil btn-faicon"></i></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <div class="input-group security">   
-
-                                                        <input name="captchacode" id="captchacode" type="text" required class="form-control form-control-1 " placeholder="Security Code">
-                                                        <span class="input-group-addon v-align-t" id="spancapchacode"><i class="fa fa-pencil btn-faicon security-row"></i></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="capt">
-                                                <span><?php include("./contact-us-form/captchacode-widget.php"); ?></span>
-                                                <img src="contact-us-form/img/checking.gif" id="checking"/>
-                                            </div>
-
-                                            <div id="dismessage" align="center" class="msg-success"></div>
-
-                                            <div class="col-md-12">
-                                                <button name="submit" type="submit" value="Submit" id="btnSubmit" class="site-button  m-r15">Submit  <i class="fa fa-angle-double-right"></i></button>
-                                                <button name="Resat" type="reset" value="Reset"  class="site-button " >Reset  <i class="fa fa-angle-double-right"></i></button>
-                                                <button type="submit" id="btnSubmit" class="button primary site-button  m-r15 btn-submit"><i class="fa fa-send btn-send"></i>Submit</button>
-
-                                            </div>
-
-                                        </div>-->
 
                                         <!--</form>-->
 
