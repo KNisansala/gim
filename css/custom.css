@@ -61,16 +61,12 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
 }
 /*------------CONTACT US FORM------------*/
 .contact-form span{
-    /*margin-bottom: 25px;*/
     font-size: 15px;
-    /*height: 51px;*/
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
     border-radius: 3px;
 }
 .contact-form details{
-    /*margin-bottom: 25px;*/
     font-size: 15px;
-    /*height: 51px;*/ 
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
     border-radius: 3px;
 }
@@ -80,7 +76,7 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
 }
 .btn-faicon{
     padding-left: 10px;
-    
+
 }
 .security span{
     padding-right: 10px;
@@ -88,18 +84,13 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
 .security .form-control-1{
     margin-right: 5px;
 }
-/*.form-control{
-     padding-right: 5px;
-}*/
+
 .email-row{
     padding-left: 6px;
 }
 .security-row{
     padding-left: 14px;
 }
-/*.security{
-    padding-right: 255px;*/
-/*}*/
 
 .capt{
     padding-left: 15px;
@@ -109,8 +100,30 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
 }
 .btn-submit{
     background-color: #09aa0c;
-    
+
 }
 .btn-submit:hover{
     background-color: #4efe00;
+}
+.msg-row{
+    height: auto;
+    line-height: 51px;
+    padding: 0 20px;
+    outline: 0;
+    font-size: 15px;
+    color: gray;
+    margin: 0 0 16px;
+    min-height: 200px;
+    margin-bottom: 16px;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
+    font-weight: 500;
+    opacity: 1;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
 }

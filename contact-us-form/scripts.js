@@ -22,10 +22,6 @@ jQuery(document).ready(function () {
         validateEmpty("txtCountry", "spanCountry");
     });
 
-    jQuery("#txtMessage").blur(function () {
-        validateEmpty("txtMessage", "spanMessage");
-    });
-
     jQuery("#captchacode").blur(function () {
         validateEmpty("captchacode", "capspan");
     });
@@ -64,7 +60,6 @@ function validate() {
             validateEmpty("txtSubject", "spanSubject") &
             validateEmpty("txtPhone", "spanPhone") &
             validateEmpty("txtCountry", "spanCountry") &
-            validateEmpty("txtMessage", "spanMessage") &
             validateEmpty("captchacode", "capspan")
 
             )
@@ -167,7 +162,7 @@ function ValidateEmail(field, validatordiv)
         jQuery('#' + validatordiv).addClass("notvalidated");
         jQuery('#' + validatordiv).removeClass("validated");
         jQuery('#' + validatordiv).fadeIn('slow').fadeOut(3000);
-        jQuery('#' + validatordiv).text("You have entered an invalid Email Address");
+        jQuery('#' + validatordiv).text("Invalid Email Address");
         return false;
     }
 }
