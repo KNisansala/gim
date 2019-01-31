@@ -127,3 +127,13 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
     border-radius: 3px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
 }
+/*========================================
+            Service.php
+ ======================================== */
+.service-description p{
+   margin-top: -14px; 
+}
+.service-description{
+   height: 104px; 
+}
+

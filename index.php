@@ -175,79 +175,28 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="section-content no-col-gap">
                             <div class="row">
 
-                                <!-- COLUMNS 1 -->
-                                <div class="col-md-4 col-sm-6 animate_line">
-                                    <div class="wt-icon-box-wraper  p-a30 center bg-white m-a5">
-                                        <div class="icon-lg text-primary m-b20">
-                                            <a href="#" class="icon-cell"><img src="images/icon/engineer.png" alt=""></a>
-                                        </div>
-                                        <div class="icon-content">
-                                            <h5 class="wt-tilte text-uppercase">BEST QUALITY</h5>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesg indtrysum has been the Ipsum dummy of the printing indus .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- COLUMNS 2 -->
-                                <div class="col-md-4 col-sm-6 animate_line">
-                                    <div class="wt-icon-box-wraper  p-a30 center bg-white m-a5">
-                                        <div class="icon-lg text-primary m-b20">
-                                            <a href="#" class="icon-cell"><img src="images/icon/light-bulb.png" alt=""></a>
-                                        </div>
-                                        <div class="icon-content ">
-                                            <h5 class="wt-tilte text-uppercase">INTEGRITY</h5>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesg indtrysum has been the Ipsum dummy of the printing indus .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- COLUMNS 3 -->
-                                <div class="col-md-4 col-sm-6 animate_line">
-                                    <div class="wt-icon-box-wraper  p-a30 center bg-white m-a5">
-                                        <div class="icon-lg text-primary m-b20">
-                                            <a href="#" class="icon-cell"><img src="images/icon/compass.png" alt=""></a>
-                                        </div>
-                                        <div class="icon-content">
-                                            <h5 class="wt-tilte text-uppercase">STRATEGY</h5>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesg indtrysum has been the Ipsum dummy of the printing indus .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- COLUMNS 4 -->
-                                <div class="col-md-4 col-sm-6 animate_line">
-                                    <div class="wt-icon-box-wraper  p-a30 center bg-white m-a5">
-                                        <div class="icon-lg text-primary m-b20">
-                                            <a href="#" class="icon-cell"><img src="images/icon/helmet.png" alt=""></a>
-                                        </div>
-                                        <div class="icon-content">
-                                            <h5 class="wt-tilte text-uppercase">SAFETY</h5>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesg indtrysum has been the Ipsum dummy of the printing indus .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- COLUMNS 5 -->
-                                <div class="col-md-4 col-sm-6 animate_line">
-                                    <div class="wt-icon-box-wraper  p-a30 center bg-white m-a5">
-                                        <div class="icon-lg text-primary m-b20">
-                                            <a href="#" class="icon-cell"><img src="images/icon/brickwall.png" alt=""></a>
-                                        </div>
-                                        <div class="icon-content">
-                                            <h5 class="wt-tilte text-uppercase">COMMUNITY</h5>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesg indtrysum has been the Ipsum dummy of the printing indus .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- COLUMNS 6 -->
-                                <div class="col-md-4 col-sm-6 animate_line">
-                                    <div class="wt-icon-box-wraper  p-a30 center bg-white m-a5">
-                                        <div class="icon-lg text-primary m-b20">
-                                            <a href="#" class="icon-cell"><img src="images/icon/no-entry.png" alt=""></a>
-                                        </div>
-                                        <div class="icon-content">
-                                            <h5 class="wt-tilte text-uppercase">SUSTAINABILITY</h5>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesg indtrysum has been the Ipsum dummy of the printing indus .</p>
-                                        </div>
-                                    </div>
-                                </div>
 
+
+                                <?php
+                                $SERVICE = Service::all();
+                                foreach ($SERVICE as $info) {
+                                    ?>
+                                    <div class="col-md-4 col-sm-6 animate_line">
+                                        <div class="wt-icon-box-wraper  p-a30 center bg-white m-a5">
+                                            <div class="icon-lg text-primary m-b20">
+                                                <a href="service.php" class="icon-cell"><img src="upload/service/<?php echo $info['image_name']; ?>" alt=""></a>
+                                            </div>
+                                            <div class="icon-content">
+                                                <h5 class="wt-tilte text-uppercase">
+                                                    <a href="service.php?id=<?php echo $info['id']; ?>"><?php echo $info['title']; ?></a>
+                                                </h5>
+                                                <p><?php echo $info['short_description']; ?></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php
+                                }
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -277,36 +226,36 @@ include_once(dirname(__FILE__) . '/class/include.php');
 
                             <div class="owl-carousel Home-services-carousel owl-btn-vertical-center">
 
-<!--                                <div class="item">
-                                    <div class="col-md-12 col-sm-4 col-xs-6 col-xs-100pc m-b30">
-                                        <div class="wt-box wt-product-box">
-                                            <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
-                                                <img src="images/products/1.jpg" alt="">
-                                                <div class="overlay-bx">
-                                                    <div class="overlay-icon">
-                                                        <a href="javascript:void(0);">
-                                                            <i class="fa fa-cart-plus wt-icon-box-xs"></i>
-                                                        </a>
-                                                        <a class="mfp-link" href="javascript:void(0);">
-                                                            <i class="fa fa-heart wt-icon-box-xs"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wt-info  text-center">
-                                                <div class="p-a10 bg-white">
-                                                    <h4 class="wt-title">
-                                                        <a href="javascript:;">Five Martines</a>
-                                                    </h4>
-
-                                                </div>
-                                                <div class="p-t10">
-                                                    <button class="site-button  m-r15" type="button">View  <i class="fa fa-angle-double-right"></i></button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>-->
+                                <!--                                <div class="item">
+                                                                    <div class="col-md-12 col-sm-4 col-xs-6 col-xs-100pc m-b30">
+                                                                        <div class="wt-box wt-product-box">
+                                                                            <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
+                                                                                <img src="images/products/1.jpg" alt="">
+                                                                                <div class="overlay-bx">
+                                                                                    <div class="overlay-icon">
+                                                                                        <a href="javascript:void(0);">
+                                                                                            <i class="fa fa-cart-plus wt-icon-box-xs"></i>
+                                                                                        </a>
+                                                                                        <a class="mfp-link" href="javascript:void(0);">
+                                                                                            <i class="fa fa-heart wt-icon-box-xs"></i>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="wt-info  text-center">
+                                                                                <div class="p-a10 bg-white">
+                                                                                    <h4 class="wt-title">
+                                                                                        <a href="javascript:;">Five Martines</a>
+                                                                                    </h4>
+                                
+                                                                                </div>
+                                                                                <div class="p-t10">
+                                                                                    <button class="site-button  m-r15" type="button">View  <i class="fa fa-angle-double-right"></i></button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>-->
 
                                 <?php
                                 $PRODUCT_TYPE = ProductType::all();
@@ -335,10 +284,10 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                                     </h4>
 
                                                 </div>
-                                                
+
                                                 <div class="p-t10">
                                                     <a href="products.php?id=<?php echo $type['id']; ?>">
-                                                    <button class="site-button  m-r15" type="button">View  <i class="fa fa-angle-double-right "></i> </button>
+                                                        <button class="site-button  m-r15" type="button">View  <i class="fa fa-angle-double-right "></i> </button>
                                                     </a>
                                                 </div>
                                             </div>
