@@ -7,9 +7,9 @@ if (isset($_POST['create'])) {
     $SERVICE = new Service(NULL);
     $VALID = new Validator();
 
-    $SERVICE->title = mysql_real_escape_string($_POST['title']);
-    $SERVICE->short_description = mysql_real_escape_string($_POST['short_description']);
-    $SERVICE->description = mysql_real_escape_string($_POST['description']);
+    $SERVICE->title = $_POST['title'];
+    $SERVICE->short_description = $_POST['short_description'];
+    $SERVICE->description = $_POST['description'];
 
     $dir_dest = '../../upload/service/';
 
@@ -22,8 +22,8 @@ if (isset($_POST['create'])) {
         $handle->file_new_name_ext = 'jpg';
         $handle->image_ratio_crop = 'C';
         $handle->file_new_name_body = Helper::randamId();
-        $handle->image_x = 900;
-        $handle->image_y = 500;
+        $handle->image_x = 512;
+        $handle->image_y = 512;
 
         $handle->Process($dir_dest);
 
@@ -85,8 +85,8 @@ if (isset($_POST['update'])) {
         $handle->file_new_name_ext = FALSE;
         $handle->image_ratio_crop = 'C';
         $handle->file_new_name_body = $_POST ["oldImageName"];
-        $handle->image_x = 900;
-        $handle->image_y = 500;
+        $handle->image_x = 512;
+        $handle->image_y = 512;
 
         $handle->Process($dir_dest);
 
