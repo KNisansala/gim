@@ -131,9 +131,20 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
             Service.php
  ======================================== */
 .service-description p{
-   margin-top: -14px; 
+    margin-top: -14px; 
 }
 .service-description{
-   height: 104px; 
+    height: 104px; 
+}
+
+/*-----------Map----------*/
+.map .googleMap .iframe{
+    height: 600px;
+    border: 0;
+    width: 100%;
+}
+
+.google-map{
+    height:auto;
 }
 
