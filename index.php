@@ -16,8 +16,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <meta name="description" content="" />
 
         <!-- FAVICONS ICON -->
-        <link rel="icon" href="images/fig-logo-gim.png" type="image/x-icon" />
-        <link rel="shortcut icon" type="image/x-icon" href="images/fig-logo-gim.png" />
+        <link rel="icon" href="images/favi-gim.png" type="image/x-icon" />
+        <link rel="shortcut icon" type="image/x-icon" href="images/favi-gim.png" />
 
         <!-- PAGE TITLE HERE -->
         <title> Home Page | GIM Genaral Trading & Construction </title>
@@ -225,38 +225,6 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="section-content">
 
                             <div class="owl-carousel Home-services-carousel owl-btn-vertical-center">
-
-                                <!--                                <div class="item">
-                                                                    <div class="col-md-12 col-sm-4 col-xs-6 col-xs-100pc m-b30">
-                                                                        <div class="wt-box wt-product-box">
-                                                                            <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
-                                                                                <img src="images/products/1.jpg" alt="">
-                                                                                <div class="overlay-bx">
-                                                                                    <div class="overlay-icon">
-                                                                                        <a href="javascript:void(0);">
-                                                                                            <i class="fa fa-cart-plus wt-icon-box-xs"></i>
-                                                                                        </a>
-                                                                                        <a class="mfp-link" href="javascript:void(0);">
-                                                                                            <i class="fa fa-heart wt-icon-box-xs"></i>
-                                                                                        </a>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="wt-info  text-center">
-                                                                                <div class="p-a10 bg-white">
-                                                                                    <h4 class="wt-title">
-                                                                                        <a href="javascript:;">Five Martines</a>
-                                                                                    </h4>
-                                
-                                                                                </div>
-                                                                                <div class="p-t10">
-                                                                                    <button class="site-button  m-r15" type="button">View  <i class="fa fa-angle-double-right"></i></button>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>-->
-
                                 <?php
                                 $PRODUCT_TYPE = ProductType::all();
                                 foreach ($PRODUCT_TYPE as $type) {
@@ -279,7 +247,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             <div class="wt-info  text-center">
                                                 <div class="p-a10 bg-white">
                                                     <h4 class="wt-title">
-                                                        <!--<a href="javascript:;">Five Martines</a>-->
+
                                                         <a href="products.php?id=<?php echo $type['id']; ?>"><?php echo $type['name']; ?></a>
                                                     </h4>
 
@@ -323,42 +291,27 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <!-- TESTIMONIAL 1 START ON BACKGROUND -->
                         <div class="section-content">
                             <div class="owl-carousel testimonial-one">
-                                <div class="item">
-                                    <div class="testimonial-1 testimonial-bg">
-                                        <div class="testimonial-pic  radius shadow"><img src="images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
-                                        <div class="testimonial-detail">
-                                            <strong class="testimonial-name">Steve Jobs</strong>
-                                            <span class="testimonial-position short-para">Cfo Loop Inc</span>
-                                        </div>
-                                        <div class="testimonial-text">
-                                            <p> Excellent Customer support!.The template itself is very extended. simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy  simply dummy text. Thanks a lot for such great features, pages, shortcodes and home variations. Incredible Job. And the best of all, great introductions Thanks a lot for such great features, pages, shortcodes and home variations. Incredible Job. And the best of all, great introductions</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="testimonial-1 testimonial-bg">
-                                        <div class="testimonial-pic  radius shadow"><img src="images/testimonials/pic2.jpg" width="100" height="100" alt=""></div>
-                                        <div class="testimonial-detail">
-                                            <strong class="testimonial-name">Steve Jobs</strong>
-                                            <span class="testimonial-position">Cfo Loop Inc</span>
-                                        </div>
-                                        <div class="testimonial-text">
-                                            <p> Excellent Customer support!.The template itself is very extended. simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy  simply dummy text. Thanks a lot for such great features, pages, shortcodes and home variations. Incredible Job. And the best of all, great introductions Thanks a lot for such great features, pages, shortcodes and home variations. Incredible Job. And the best of all, great introductions</p>
+                                <?php
+                                $COMMENT = Comments::all();
+                                foreach ($COMMENT as $info) {
+                                    ?>
+                                    <div class="item">
+                                        <div class="testimonial-1 testimonial-bg">
+                                            <div class="testimonial-pic  radius shadow">
+                                                <img src="upload/comments/<?php echo $info['image_name']; ?>" alt="">
+                                            </div>
+                                            <div class="testimonial-detail">
+                                                <strong class="testimonial-name"><?php echo $info['name']; ?></strong>
+                                                <span class="testimonial-position"><?php echo $info['title']; ?></span>
+                                            </div>
+                                            <div class="testimonial-text">
+                                                <p> <?php echo $info['comment']; ?></p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="item">
-                                    <div class="testimonial-1 testimonial-bg">
-                                        <div class="testimonial-pic  radius shadow"><img src="images/testimonials/pic3.jpg" width="100" height="100" alt=""></div>
-                                        <div class="testimonial-detail">
-                                            <strong class="testimonial-name">Steve Jobs</strong>
-                                            <span class="testimonial-position">Cfo Loop Inc</span>
-                                        </div>
-                                        <div class="testimonial-text">
-                                            <p> Excellent Customer support!.The template itself is very extended. simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy  simply dummy text. Thanks a lot for such great features, pages, shortcodes and home variations. Incredible Job. And the best of all, great introductions Thanks a lot for such great features, pages, shortcodes and home variations. Incredible Job. And the best of all, great introductions</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                    <?php
+                                }
+                                ?>
                             </div>
                         </div>
                     </div>
