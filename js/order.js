@@ -6,9 +6,10 @@ $(document).ready(function () {
         var product = $('.option-' + product_id).attr('product');
         var html = '';
         var count = $('.prodct #qty-' + product_id).length;
-        
+
+
         if (product_id != 0) {
-            
+
             if (count == 0) {
                 html += '<div class="col-md-4 product-qty" type="' + type + '" product_id="' + product_id + '">';
 
@@ -30,7 +31,7 @@ $(document).ready(function () {
                 html += '</span>';
                 html += '</div>';
 
-                html += '</div>';
+                
             }
         }
 
