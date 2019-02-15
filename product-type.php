@@ -14,8 +14,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <meta name="description" content="" />
 
         <!-- FAVICONS ICON -->
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+        <link rel="icon" href="images/favi-gim.png" type="image/x-icon" />
+        <link rel="shortcut icon" type="image/x-icon" href="images/favi-gim.png" />
 
         <!-- PAGE TITLE HERE -->
         <title>Product | GIM Genaral Trading & Construction </title>
@@ -62,7 +62,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <div class="page-wraper"> 
 
             <!-- HEADER START -->
-            <?php include './header-2.php'; ?>
+            <?php include './header.php'; ?>
             <!-- HEADER END -->
 
             <!-- CONTENT START -->
@@ -138,14 +138,14 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
                                         <img src="upload/product-type/thumb/<?php echo $type['image_name']; ?>" alt="">
                                         <div class="overlay-bx">
-                                            <div class="overlay-icon">
+<!--                                            <div class="overlay-icon">
                                                 <a href="javascript:void(0);">
                                                     <i class="fa fa-cart-plus wt-icon-box-xs"></i>
                                                 </a>
                                                 <a class="mfp-link" href="javascript:void(0);">
                                                     <i class="fa fa-heart wt-icon-box-xs"></i>
                                                 </a>
-                                            </div>
+                                            </div>-->
                                         </div>
                                     </div>
                                     <div class="wt-info  text-center">

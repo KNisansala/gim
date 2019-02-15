@@ -22,8 +22,8 @@ $TYPE = new ProductType($id);
         <meta name="description" content="" />
 
         <!-- FAVICONS ICON -->
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+        <link rel="icon" href="images/favi-gim.png" type="image/x-icon" />
+        <link rel="shortcut icon" type="image/x-icon" href="images/favi-gim.png" />
 
         <!-- PAGE TITLE HERE -->
         <title>Product | GIM Genaral Trading & Construction </title>
@@ -71,7 +71,7 @@ $TYPE = new ProductType($id);
         <div class="page-wraper">
 
             <!-- HEADER START -->
-            <?php include './header-2.php'; ?>
+            <?php include './header.php'; ?>
             <!-- HEADER END -->
 
             <!-- CONTENT START -->
@@ -124,15 +124,17 @@ $TYPE = new ProductType($id);
 
                                             <div class="descrip">
                                                 <?php echo $product['description']; ?>
-                                            </div>
 
+                                            </div>
+                                            <div class="row">
+                                                <a href="order.php" ><button class="site-button " type="submit">Order Now <i class="fa fa-angle-double-right"></i></button></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <?php
                             }
                             ?>
-
                         </div>
                     </div>
                 </div>

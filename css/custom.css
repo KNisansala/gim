@@ -148,3 +148,37 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
     height:auto;
 }
 
+/*-------------Order Form-------------*/
+
+.unt{
+   padding-left: 0px; 
+   padding-top: 30px;
+}
+.prodct{
+    padding-left:0px;
+    padding-right: 0px;
+}
+
+.qty{
+    padding-right: 15px;
+}
+
+.header-nav .nav > li > a{
+    font-size: 13.4px;
+}
+.capmargin.span{
+    margin-left:28px;
+}
+.line-space{
+    margin-bottom: -4px;
+}
+.border{
+   border: 2px solid;
+   /*border-radius: 5px;*/
+   border-color: #b2b2b2;
+   /*background-color: whitesmoke;*/
+}
+/*----------Index------------*/
+.btn-correction{
+    margin-left: 15px;
+}

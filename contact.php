@@ -12,8 +12,8 @@
         <meta name="description" content="" />
 
         <!-- FAVICONS ICON -->
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+        <link rel="icon" href="images/favi-gim.png" type="image/x-icon" />
+        <link rel="shortcut icon" type="image/x-icon" href="images/favi-gim.png" />
 
         <!-- PAGE TITLE HERE -->
         <title>Contact us | GIM Genaral Trading & Construction</title>
@@ -62,7 +62,7 @@
         <div class="page-wraper"> 
 
             <!-- HEADER START -->
-            <?php include './header-2.php'; ?>
+            <?php include './header.php'; ?>
             <!-- HEADER END -->
 
             <!-- CONTENT START -->

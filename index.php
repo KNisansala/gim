@@ -234,14 +234,14 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
                                                 <img src="upload/product-type/thumb/<?php echo $type['image_name']; ?>" alt="">
                                                 <div class="overlay-bx">
-                                                    <div class="overlay-icon">
+<!--                                                    <div class="overlay-icon">
                                                         <a href="javascript:void(0);">
                                                             <i class="fa fa-cart-plus wt-icon-box-xs"></i>
                                                         </a>
                                                         <a class="mfp-link" href="javascript:void(0);">
                                                             <i class="fa fa-heart wt-icon-box-xs"></i>
                                                         </a>
-                                                    </div>
+                                                    </div>-->
                                                 </div>
                                             </div>
                                             <div class="wt-info  text-center">
@@ -255,7 +255,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
 
                                                 <div class="p-t10">
                                                     <a href="products.php?id=<?php echo $type['id']; ?>">
-                                                        <button class="site-button  m-r15" type="button">View  <i class="fa fa-angle-double-right "></i> </button>
+                                                        <button class="site-button  m-r15 btn-correction" type="button">View  <i class="fa fa-angle-double-right "></i> </button>
                                                     </a>
                                                 </div>
                                             </div>
