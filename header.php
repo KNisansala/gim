@@ -169,7 +169,7 @@
                         <li><a href="about.php">About us</a></li>
                         <li><a href="service.php">Services</a></li>
                         <li><a href="product-type.php">Products</a></li>
-                        <li><a href="order.php">Order</a></li>
+                        <li><a href="order.php">Order Now</a></li>
                         <li class="contact"><a href="contact.php">Contact</a></li>
 
                     </ul>

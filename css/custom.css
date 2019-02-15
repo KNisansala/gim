@@ -182,3 +182,11 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
 .btn-correction{
     margin-left: 15px;
 }
+/*----------Header----------*/
+.header-botton .header-nav .nav > li > a{
+    padding: 20px 58px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-style-8 .is-fixed .header-nav .nav > li > a{
+    padding: 20px 58px;
+}

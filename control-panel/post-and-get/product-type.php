@@ -79,6 +79,8 @@ if (isset($_POST['create'])) {
 
 if (isset($_POST['update'])) {
     $dir_dest = '../../upload/product-type/';
+    
+    
 
     $handle = new Upload($_FILES['image']);
 

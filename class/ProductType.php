@@ -79,7 +79,7 @@ class ProductType {
                 . "`image_name` ='" . $this->image_name . "' "
                 . "`unit` ='" . $this->unit . "' "
                 . "WHERE `id` = '" . $this->id . "'";
-
+        
         $db = new Database();
 
         $result = $db->readQuery($query);
@@ -118,6 +118,8 @@ class ProductType {
 
             $PRODUCT->id = $photo["id"];
             $PRODUCT->delete();
+            
+
         }
     }
 

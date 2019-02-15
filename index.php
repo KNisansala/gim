@@ -331,7 +331,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
 
                             <div class="col-md-3">
                                 <div class="call-to-action-right p-tb30">
-                                    <a href="contact-1.html" class="site-button-secondry text-uppercase font-weight-600">
+                                    <a href="contact.php" class="site-button-secondry text-uppercase font-weight-600">
                                         Contact us  <i class="fa fa-angle-double-right"></i>
                                     </a>
                                 </div>
