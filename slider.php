@@ -122,7 +122,7 @@
                                  data-paddingleft="[0,0,0,0]"
 
                                  style="z-index:13; text-transform:uppercase; font-weight:700;">
-                                <a href="javascript:;" class="site-button button-lg  m-r15">Order Now... <i class="fa fa-angle-double-right"></i></a>
+                                <a href="order.php" class="site-button button-lg  m-r15">Order Now... <i class="fa fa-angle-double-right"></i></a>
                             </div>
 
                         </li>
