@@ -127,7 +127,7 @@ $TYPE = new ProductType($id);
 
                                             </div>
                                             <div class="row">
-                                                <a href="order.php" ><button class="site-button " type="submit">Order Now <i class="fa fa-angle-double-right"></i></button></a>
+                                                <a href="order.php?id=8" <button class="site-button " type="submit">Order Now <i class="fa fa-angle-double-right"></i></button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -177,6 +177,7 @@ $TYPE = new ProductType($id);
         <script type="text/javascript"  src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
         <script type="text/javascript"  src="js/shortcode.js"></script><!-- SHORTCODE FUCTIONS  -->
         <script type="text/javascript"  src="js/switcher.js"></script><!-- SWITCHER FUCTIONS  -->
+        <script src="js/order.js" type="text/javascript"></script>
 
 
 
