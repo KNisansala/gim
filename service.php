@@ -15,8 +15,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <meta name="description" content="" />
 
         <!-- FAVICONS ICON -->
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+        <link rel="icon" href="images/favi-gim.png" type="image/x-icon" />
+        <link rel="shortcut icon" type="image/x-icon" href="images/favi-gim.png" />
 
         <!-- PAGE TITLE HERE -->
         <title>Services | GIM Genaral Trading & Construction </title>
@@ -63,7 +63,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <div class="page-wraper"> 
 
             <!-- HEADER START -->
-            <?php include './header-2.php'; ?>
+            <?php include './header.php'; ?>
             <!-- HEADER END -->
 
             <!-- CONTENT START -->

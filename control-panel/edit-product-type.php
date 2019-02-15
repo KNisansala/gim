@@ -74,11 +74,18 @@ $PRODUCT_TYPE = new ProductType($id);
                                         </div>
                                     </div>
 
-
-
+                                    <div class="col-md-12">                                       
+                                        <div class="form-group form-float" >
+                                            <div class="form-line">
+                                                <input type="text" id="unit" class="form-control" value="<?php echo $PRODUCT_TYPE->unit; ?>"  name="unit" required="TRUE">
+                                                <label class="form-label">Unit</label>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="col-md-12">
                                         <input type="hidden" id="oldImageName" value="<?php echo $PRODUCT_TYPE->image_name; ?>" name="oldImageName"/>
                                         <input type="hidden" id="id" value="<?php echo $PRODUCT_TYPE->id; ?>" name="id"/>
+                                        <!--<input type="hidden" id="unit" value="<?php echo $PRODUCT_TYPE->unit; ?>" name="unit"/>-->
 <!--                                            <input type="hidden" id="authToken" value="<?php echo $_SESSION["authToken"]; ?>" name="authToken"/>-->
                                         <button type="submit" class="btn btn-primary m-t-15 waves-effect" name="update" value="update">Save Changes</button>
                                     </div>

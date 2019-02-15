@@ -82,6 +82,14 @@ $PRODUCT = new Product($id);
                                             <textarea id="description" name="description" class="form-control" rows="5"><?php echo $PRODUCT->description; ?></textarea> 
                                         </div>
                                     </div>
+                                    <div class="col-md-12">                                       
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
+                                                <input type="text" id="unit" class="form-control"  value="<?php echo $PRODUCT->unit; ?>"  name="unit"  required="TRUE">
+                                                <label class="form-label">Unit</label>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="col-md-12">
                                         <input type="hidden" id="oldImageName" value="<?php echo $PRODUCT->image_name; ?>" name="oldImageName"/>
                                         <input type="hidden" id="id" value="<?php echo $PRODUCT->id; ?>" name="id"/>

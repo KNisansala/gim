@@ -16,11 +16,12 @@ class ProductType {
     public $id;
     public $name;
     public $image_name;
+    public $unit;
 
     public function __construct($id) {
         if ($id) {
 
-            $query = "SELECT `id`,`name`,`image_name` FROM `product-type` WHERE `id`=" . $id;
+            $query = "SELECT `id`,`name`,`image_name`,`unit` FROM `product-type` WHERE `id`=" . $id;
 
             $db = new Database();
 
@@ -29,6 +30,7 @@ class ProductType {
             $this->id = $result['id'];
             $this->name = $result['name'];
             $this->image_name = $result['image_name'];
+            $this->unit = $result['unit'];
 
 
 
@@ -38,9 +40,10 @@ class ProductType {
 
     public function create() {
 
-        $query = "INSERT INTO `product-type` (`name`,`image_name`) VALUES  ('"
+        $query = "INSERT INTO `product-type` (`name`,`image_name`,`unit`) VALUES  ('"
                 . $this->name . "','"
-                . $this->image_name . "')";
+                . $this->image_name . "','"
+                . $this->unit . "')";
 
         $db = new Database();
 
@@ -74,6 +77,7 @@ class ProductType {
         $query = "UPDATE  `product-type` SET "
                 . "`name` ='" . $this->name . "', "
                 . "`image_name` ='" . $this->image_name . "' "
+                . "`unit` ='" . $this->unit . "' "
                 . "WHERE `id` = '" . $this->id . "'";
 
         $db = new Database();
@@ -86,7 +90,7 @@ class ProductType {
             return FALSE;
         }
     }
-
+    
     public function delete() {
 
 

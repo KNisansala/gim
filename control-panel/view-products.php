@@ -87,6 +87,14 @@ $PRODUCT_TYPE = new ProductType($id);
                                             </div>
                                         </div>
                                     </div>
+<!--                                      <div class="col-md-12">                                       
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
+                                                <input type="text" id="unit" class="form-control"  autocomplete="off" name="unit" required="true">
+                                                <label class="form-label">Unit</label>
+                                            </div>
+                                        </div>
+                                    </div>-->
                                     <div class="col-md-12"> 
                                         <input type="hidden" id="id" value="<?php echo $PRODUCT_TYPE->id; ?>" name="id"/>
                                         <input type="submit" name="create" class="btn btn-primary TYPEm-t-15 waves-effect" value="create"/>
@@ -103,6 +111,7 @@ $PRODUCT_TYPE = new ProductType($id);
                                                 <th>ID</th>
                                                 <th>Product Name</th>
                                                 <th>Product Type</th>
+                                                
                                                 <th>Options</th>
                                             </tr>
                                         </thead>
@@ -111,11 +120,12 @@ $PRODUCT_TYPE = new ProductType($id);
                                                 <th>ID</th>
                                                 <th>Product Name</th>
                                                 <th>Product Type</th>
+                                                
                                                 <th>Options</th>
                                             </tr>
                                         </tfoot>
                                         <tbody>
-                                            <?php
+                                            <?php 
                                             foreach (Product::all() as $key => $product) {
                                                 $TYPE = new ProductType($product['type']);
                                                 $key++;
@@ -123,7 +133,8 @@ $PRODUCT_TYPE = new ProductType($id);
                                                 <tr id="row_<?php echo $product['id']; ?>">
                                                     <td><?php echo $key ?></td>
                                                     <td><?php echo $product['name']; ?></td>
-                                                    <td><?php echo $TYPE->name; ?></td>
+                                                   <td><?php echo $TYPE->name; ?></td>
+                                                   
                                                     <td> 
                                                         <a href="edit-product.php?id=<?php echo $product['id']; ?>"> <button class="glyphicon glyphicon-pencil edit-btn"></button></a>
                                                         |

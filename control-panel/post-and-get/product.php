@@ -8,9 +8,9 @@ if (isset($_POST['create'])) {
     $VALID = new Validator();
 
     $PRODUCT->type = $_POST['id'];
-    $PRODUCT->name = mysql_real_escape_string($_POST['name']);
-    $PRODUCT->short_description = mysql_real_escape_string($_POST['short_description']);
-    $PRODUCT->description = mysql_real_escape_string($_POST['description']);
+    $PRODUCT->name = $_POST['name'];
+    $PRODUCT->short_description = $_POST['short_description'];
+    $PRODUCT->description = $_POST['description'];
 
     $dir_dest = '../../upload/product-type/product/';
 
@@ -94,9 +94,9 @@ if (isset($_POST['update'])) {
     $PRODUCT = new Product($_POST['id']);
 
     $PRODUCT->image_name = $_POST['oldImageName'];
-    $PRODUCT->name = mysql_real_escape_string($_POST['name']);
-    $PRODUCT->short_description = mysql_real_escape_string($_POST['short_description']);
-    $PRODUCT->description = mysql_real_escape_string($_POST['description']);
+    $PRODUCT->name = $_POST['name'];
+    $PRODUCT->short_description = $_POST['short_description'];
+    $PRODUCT->description = $_POST['description'];
 
     $VALID = new Validator();
     $VALID->check($PRODUCT, [

@@ -164,13 +164,13 @@
 
                 <!-- MAIN Nav -->
                 <div class="header-nav navbar-collapse collapse main-title">
-                    <ul class=" nav navbar-nav">
+                    <ul class=" nav navbar-nav header-correction">
                         <li><a href="./">Home</a></li>
                         <li><a href="about.php">About us</a></li>
                         <li><a href="service.php">Services</a></li>
-                        <li><a href="product-type.php">Product</a></li>
+                        <li><a href="product-type.php">Products</a></li>
                         <li><a href="order.php">Order</a></li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li class="contact"><a href="contact.php">Contact</a></li>
 
                     </ul>
                 </div>
