@@ -47,7 +47,8 @@
         <link rel="stylesheet" type="text/css" href="css/switcher.css">
         <!-- contact-us -->
         <link href="contact-us-form/style.css" rel="stylesheet" type="text/css"/>
-
+        <!-- RESPONSIVE -->
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
 
         <!-- GOOGLE FONTS -->
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
@@ -69,7 +70,7 @@
             <div class="page-content">
 
                 <!-- INNER PAGE BANNER -->
-                <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/about-banner.jpg);">
+                <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/gim-vehicle-banner.gif);">
                     <div class="overlay-main bg-black opacity-07"></div>
                     <div class="container">
                         <div class="wt-bnr-inr-entry">
@@ -91,37 +92,37 @@
                 <!-- BREADCRUMB ROW END -->
 
                 <div class="section-full p-t80 p-b50">
-                    <div class="container">
+                    <div class="container container-1">
 
                         <!-- CONTACT DETAIL BLOCK -->
                         <div class="section-content m-b30">
 
                             <div class="row">
 
-                                <div class="col-md-4 col-sm-12 m-b30">
+                                <div class="col-md-4 col-sm-4 m-b30">
                                     <div class="wt-icon-box-wraper center p-a30 bg-secondry">
                                         <div class="icon-sm text-white m-b10"><i class="iconmoon-smartphone-1"></i></div>
                                         <div class="icon-content">
-                                            <h5 class="text-white">Phone number</h5>
-                                            <p class="text-gray-dark">+91 564 548 4854</p>
+                                            <h5 class="text-white">Phone numbers</h5>
+                                            <p class="text-gray-dark">071-8163391<br>077-7261476<br>011-2560738</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-sm-12 m-b30">
-                                    <div class="wt-icon-box-wraper center p-a30 bg-secondry">
+                                <div class="col-md-4 col-sm-4 m-b30">
+                                    <div class="wt-icon-box-wraper center p-a30 bg-secondry bg-secondry-box-1 ">
                                         <div class="icon-sm text-white m-b10"><i class="iconmoon-email"></i></div>
                                         <div class="icon-content">
                                             <h5 class="text-white">Email address</h5>
-                                            <p class="text-gray-dark">info@sublime.com</p>
+                                            <p class="text-gray-dark">gimtrading.construction@gmail.com</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-sm-12 m-b30">
+                                <div class="col-md-4 col-sm-4 m-b30">
                                     <div class="wt-icon-box-wraper center p-a30 bg-secondry">
                                         <div class="icon-sm text-white m-b10"><i class="iconmoon-travel"></i></div>
-                                        <div class="icon-content">
-                                            <h5 class="text-white">Address info</h5>
-                                            <p class="text-gray-dark">Galle Road ,Galle</p>
+                                        <div class="icon-content bg-secondry-box-2">
+                                            <h5 class="text-white">Address</h5>
+                                            <p class="text-gray-dark">101/4,Kalalgoda Road,Pannipitiya,Colombo,<br>Sri Lanka</p>
                                         </div>
                                     </div>
                                 </div>
@@ -137,7 +138,7 @@
                                 <!-- LOCATION BLOCK-->
                                 <div class="wt-box col-md-6">
 
-                                    <h4 class="text-uppercase">Location</h4>
+                                    <h4 class="text-uppercase">Find us on map</h4>
                                     <div class="wt-separator-outer m-b30">
                                         <div class="wt-separator style-square">
                                             <span class="separator-left bg-primary"></span>
@@ -146,7 +147,8 @@
                                     </div>      
                                     <div class="map-wrapper">
                                         <div class="map-area map">
-                                            <div id="googleMap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.7517254772342!2d80.2190042579937!3d6.062627266111728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173d83d82396f%3A0xb7b2efbd64ccdef6!2sRound+Tours+Srilanka!5e0!3m2!1sen!2slk!4v1540373659211"  height="804" frameborder="0" style="border:0;width:100%" allowfullscreen></iframe></div>
+                                            <div id="googleMap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.1888807118708!2d79.94583841412893!3d6.867956420969962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae251ac4c9a9649%3A0xb1340da88148b500!2s101+Kalalgoda+Rd%2C+Sri+Jayawardenepura+Kotte+10230!5e0!3m2!1sen!2slk!4v1551181162983" width="100%" height="804" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+
                                         </div>
                                     </div>
 
@@ -159,7 +161,7 @@
                                 <!-- CONTACT FORM-->
                                 <div class="wt-box col-md-6 contact-form">
 
-                                    <h4 class="text-uppercase">Contact Form </h4>
+                                    <h4 class="text-uppercase">Contact Us </h4>
                                     <div class="wt-separator-outer m-b30">
                                         <div class="wt-separator style-square">
                                             <span class="separator-left bg-primary"></span>

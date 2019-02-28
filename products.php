@@ -56,6 +56,8 @@ $TYPE = new ProductType($id);
         <link rel="stylesheet" type="text/css" href="css/custom.css">
         <!-- SIDE SWITCHER STYLE SHEET -->
         <link rel="stylesheet" type="text/css" href="css/switcher.css">    
+        <!-- RESPONSIVE -->
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
 
 
         <!-- GOOGLE FONTS -->
@@ -78,7 +80,7 @@ $TYPE = new ProductType($id);
             <div class="page-content">
 
                 <!-- INNER PAGE BANNER -->
-                <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/our-team-banner.jpg);">
+                <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/gim-vehicle-banner.gif);">
                     <div class="overlay-main bg-black opacity-07"></div>
                     <div class="container">
                         <div class="wt-bnr-inr-entry">

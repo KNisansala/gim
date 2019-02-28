@@ -58,7 +58,7 @@
                             </div>
                             <div class="icon-content">
                                 <strong>Call Us</strong>
-                                <span>(+94) 71 160 3068</span>
+                                <span>(+94) 71 8163391</span>
                             </div>
                         </div>
                     </li>
@@ -69,7 +69,7 @@
                             </div>
                             <div class="icon-content">
                                 <strong>Opening Time </strong>
-                                <span>Mon -Sat: 10:00 - 20:00 </span>
+                                <span>Mon - Sun: 08:30 - 17:30 </span>
                             </div>
                         </div>
                     </li>
@@ -89,6 +89,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <div class=" hidden-sm hidden-md hidden-lg" >
+                    <img src="images/logo-responsive-1.png" alt="p-1">
+                </div>
                 <!-- ETRA Nav -->
                 <div class="extra-nav">
                     <div class="extra-cell">

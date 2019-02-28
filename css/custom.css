@@ -3,7 +3,7 @@ YOU CAN WRIGHT CUSTOME CSS
 ======================================*/
 
 .descrip{
-    height: 260px;
+    height: 186px;
     text-align: justify;
     margin-top: -20px;
     margin-bottom: 20px;
@@ -58,6 +58,12 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
 }
 .header-botton .header-nav .nav > li > a:hover{
     color: #fff;
+}
+.p-tb100-box{
+    margin-bottom: -30px;
+}
+.bg-left-center-box-1{
+    margin-bottom: -23px;
 }
 /*------------CONTACT US FORM------------*/
 .contact-form span{
@@ -127,6 +133,9 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
     border-radius: 3px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
 }
+.container-1{
+    margin-bottom: -56px;
+}
 /*========================================
             Service.php
  ======================================== */
@@ -135,6 +144,9 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
 }
 .service-description{
     height: 104px; 
+}
+.bg-left-center-margin{
+    margin-bottom: -31px;
 }
 
 /*-----------Map----------*/
@@ -174,9 +186,10 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
 }
 .border{
    border: 2px solid;
-   /*border-radius: 5px;*/
-   border-color: #b2b2b2;
-   /*background-color: whitesmoke;*/
+  border-color: #b2b2b2;
+}
+.border-1{
+    padding-top: 34px;
 }
 /*----------Index------------*/
 .btn-correction{
@@ -189,4 +202,66 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
 }
 .header-style-8 .is-fixed .header-nav .nav > li > a{
     padding: 20px 58px;
+}
+/*--------Footer------------*/
+.phone-box{
+  padding-bottom: 17px;  
+}
+.fax-box{
+  padding-bottom: 51px;   
+}
+.email-box{
+padding-bottom: 36px;
+}
+.bg-secondry-box-1{
+    padding-bottom: 78px;
+}
+.bg-secondry-box-2{
+   padding-bottom: 24px; 
+}
+/*------------About Us------------*/
+.content-box{
+    padding-bottom: 224px;
+}
+.icon-edit{
+    font-size: 2em;
+    color: #4efe00;
+    /*margin-left: 151px;*/
+    margin-bottom: 18px;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 15px;
+   
+}
+.icon-edit:hover{
+    color: #09aa0c;
+}
+.underline-1{
+    margin-bottom: 13px;
+    
+    
+}
+.text-edit{
+    text-align: center;
+    font-size: 22px;
+}
+.icon-content-text p{
+    text-align: center;
+}
+.icon-content ul{
+    text-align: center;
+    list-style:none;
+}
+.value-content{
+    text-align: center;
+}
+.squre{
+  background-color: white;
+}
+
+.service-box-1{
+    height: 252px;
+}
+.p-tb100-1{
+    margin-bottom: -51px;
 }
