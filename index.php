@@ -47,8 +47,9 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <!-- CUSTOM  STYLE SHEET -->
         <link rel="stylesheet" type="text/css" href="css/custom.css">
         <!-- SIDE SWITCHER STYLE SHEET -->
-        <link rel="stylesheet" type="text/css" href="css/switcher.css">    
-
+        <link rel="stylesheet" type="text/css" href="css/switcher.css">
+        <!-- RESPONSIVE -->
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
 
         <!-- REVOLUTION SLIDER CSS -->
         <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/settings.css">
@@ -78,16 +79,16 @@ include_once(dirname(__FILE__) . '/class/include.php');
                 <!-- Slider END -->
 
                 <!-- ABOUT COMPANY SECTION START -->
-                <div class="section-full p-tb100">
+                <div class="section-full p-tb100 p-tb100-box">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-5 col-sm-5 col-xs-6 col-xs-100pc">
                                 <div class="about-com-pic">
-                                    <img src="images/about-pic.jpg" alt="" class="img-responsive"/>
+                                    <img src="images/banner/PIC 2.jpg" alt="" class="img-responsive"/>
                                 </div>
                             </div>
                             <div class="col-md-7 col-sm-7 col-xs-6 col-xs-100pc">
-                                <div class="section-head text-left">
+                                <div class="section-head text-left text-left-0">
                                     <h2 class="text-uppercase">About Company </h2>
                                     <div class="wt-separator-outer">
                                         <div class="wt-separator style-square">
@@ -95,56 +96,54 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             <span class="separator-right bg-primary"></span>
                                         </div>
                                     </div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown  galley.
-                                    </p>
-                                    <p>
+                                    <p>GIM General Trading & Construction was established on 2011, as a general trading company. Our primary forcas has been to serve building materials to civil engineering constructions. And we are in the construction field at about 9 years. Our company was registered under Construction Industry Development Authority (CIDA) in Sri Lanka. Our supply chain has been connected with International Construction Companies as well.</p>
+<!--                                    <p>
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with the .
-                                    </p>
+                                    </p>-->
                                 </div>
                             </div>
                             <div class="col-md-7 col-sm-12 col-xs-12">
                                 <div class="about-types row">
-                                    <div class="col-md-6 col-sm-6 col-xs-6 col-xs-100pc p-tb20">
+                                    <div class="col-md-6 col-sm-4 col-xs-6 col-xs-100pc p-tb20">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
                                                 <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-truck btn-icon" aria-hidden="true"></i></a>
                                             </div>
                                             <div class="icon-content">
                                                 <h5 class="wt-tilte text-uppercase m-b0">Transport</h5>
-                                                <p>Lorem ipsum dolor sit piscing sed diam nonmy end .</p>
+                                                <p>We transport all kind of building materials in Sri Lanka.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-6 col-xs-100pc p-tb20 ">
+                                    <div class="col-md-6 col-sm-4 col-xs-6 col-xs-100pc p-tb20 ">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
-                                                <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-building btn-icon" aria-hidden="true"></i></a>
+                                                <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
                                             </div>
                                             <div class="icon-content">
-                                                <h5 class="wt-tilte text-uppercase m-b0">Building</h5>
-                                                <p>Lorem ipsum dolor sit piscing sed diam nonmy end .</p>
+                                                <h5 class="wt-tilte text-uppercase m-b0">Supply</h5>
+                                                <p>Our supply chain has been connected <br>with International Construction <br>Companies.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-6 col-xs-100pc p-tb20 ">
+                                    <div class="col-md-6 col-sm-4 col-xs-6 col-xs-100pc p-tb20 ">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
-                                                <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-gavel btn-icon" aria-hidden="true"></i></a>
+                                                <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-check-circle-o" aria-hidden="true"></i></a>
                                             </div>
                                             <div class="icon-content">
-                                                <h5 class="wt-tilte text-uppercase m-b0 ">Digging</h5>
+                                                <h5 class="wt-tilte text-uppercase m-b0 ">Quality Materials</h5>
                                                 <p>Lorem ipsum dolor sit piscing sed diam nonmy end .</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-6 col-xs-100pc p-tb20 ">
+                                    <div class="col-md-6 col-sm-4 col-xs-6 col-xs-100pc p-tb20 ">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
                                                 <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-picture-o btn-icon" aria-hidden="true"></i></a>
                                             </div>
                                             <div class="icon-content">
-                                                <h5 class="wt-tilte text-uppercase m-b0">interior</h5>
+                                                <h5 class="wt-tilte text-uppercase m-b0">reliability</h5>
                                                 <p>Lorem ipsum dolor sit piscing sed diam nonmy end .</p>
                                             </div>
                                         </div>
@@ -158,7 +157,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
 
 
                 <!-- WHY CHOOSE US SECTION START  -->
-                <div class="section-full bg-gray p-t80 p-b120 bg-no-repeat bg-left-center" style="background-image:url(images/background/why-choose-pic-2.png);">
+                <div class="section-full bg-gray p-t80 p-b120 bg-no-repeat bg-left-center bg-left-center-box-1" style="background-image:url(images/background/why-choose-pic-2.png);">
                     <div class="container">
                         <!-- TITLE START-->
                         <div class="section-head text-center">
@@ -169,10 +168,10 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <span class="separator-right bg-primary"></span>
                                 </div>
                             </div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <p>Gim Trading Construction is a full service construction company specializing in commercial & residential construction.</p>
                         </div>
                         <!-- TITLE END-->
-                        <div class="section-content no-col-gap">
+                        <div class="section-content no-col-gap service-box-1">
                             <div class="row">
 
 
@@ -182,7 +181,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                 foreach ($SERVICE as $info) {
                                     ?>
                                     <div class="col-md-4 col-sm-6 animate_line">
-                                        <div class="wt-icon-box-wraper  p-a30 center bg-white m-a5">
+                                        <div class="wt-icon-box-wraper  p-a30 center bg-white m-a5 service-box-1">
                                             <div class="icon-lg text-primary m-b20">
                                                 <a href="service.php" class="icon-cell"><img src="upload/service/<?php echo $info['image_name']; ?>" alt=""></a>
                                             </div>
@@ -204,7 +203,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                 <!-- WHY CHOOSE US SECTION END  --> 
 
                 <!-- SERVICES START  -->         
-                <div class="section-full bg-white p-t80 p-b50 scale-bg-top scale-bg-bottom">
+                <div class="section-full bg-white p-t80 p-b50 scale-bg-top scale-bg-bottom serviceStart">
                     <div class="container">
                         <!-- IMAGE CAROUSEL START -->
 
@@ -217,7 +216,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <span class="separator-right bg-primary"></span>
                                 </div>
                             </div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <p>Building materials that we are suppling...</p>
                         </div>
                         <!-- TITLE END -->
 
@@ -324,8 +323,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
                         <div class="row">
                             <div class="col-md-8 col-sm-8">
                                 <div class="call-to-action-left p-tb20 p-r50">
-                                    <h4 class="text-uppercase m-b10">We are ready to build your dream tell us more about your project</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra mauris eget tortor.</p>
+                                    <h4 class="text-uppercase m-b10">We are ready to provides good materials for your projects</h4>
+                                    <p>Contact us and order now</p>
                                 </div>
                             </div>
 

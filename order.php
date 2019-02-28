@@ -50,6 +50,8 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <link rel="stylesheet" type="text/css" href="css/switcher.css"> 
         <!-- Order Now -->
         <link href="order-form/style.css" rel="stylesheet" type="text/css"/>
+        <!-- RESPONSIVE -->
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
 
 
         <!-- GOOGLE FONTS -->
@@ -72,7 +74,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
             <div class="page-content">
 
                 <!-- INNER PAGE BANNER -->
-                <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/career.jpg);">
+                <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/gim-vehicle-banner.gif);">
                     <div class="overlay-main bg-black opacity-07"></div>
                     <div class="container">
                         <div class="wt-bnr-inr-entry">
@@ -94,13 +96,13 @@ include_once(dirname(__FILE__) . '/class/include.php');
                 <!-- BREADCRUMB ROW END -->
 
                 <!-- SECTION CONTENT START --> 
-                <div class="section-full p-t80 p-b50">
+                <div class="section-full p-t80 p-b50 border-1">
                     <div class="container">
                         <div class="section-content">
                             <!-- APPLY NOW YOUR SUGGETION -->
                             <div class="p-a15 ">
                                 <div class="section-head">
-                                    <h4 class="text-uppercase">Apply Now Your Suggetion</h4>
+                                    <h4 class="text-uppercase">Order Now</h4>
                                     <div class="wt-separator-outer">
                                         <div class="wt-separator style-square">
                                             <span class="separator-left bg-primary"></span>

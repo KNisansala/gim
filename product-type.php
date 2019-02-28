@@ -46,7 +46,9 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <!-- CUSTOM  STYLE SHEET -->
         <link rel="stylesheet" type="text/css" href="css/custom.css">
         <!-- SIDE SWITCHER STYLE SHEET -->
-        <link rel="stylesheet" type="text/css" href="css/switcher.css">    
+        <link rel="stylesheet" type="text/css" href="css/switcher.css">  
+        <!-- RESPONSIVE -->
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
 
 
         <!-- GOOGLE FONTS -->
@@ -69,7 +71,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
             <div class="page-content">
 
                 <!-- INNER PAGE BANNER -->
-                <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/about-banner.jpg);">
+                <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/gim-vehicle-banner.gif);">
                     <div class="overlay-main bg-black opacity-07"></div>
                     <div class="container">
                         <div class="wt-bnr-inr-entry">

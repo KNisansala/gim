@@ -47,7 +47,9 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <!-- CUSTOM  STYLE SHEET -->
         <link rel="stylesheet" type="text/css" href="css/custom.css">
         <!-- SIDE SWITCHER STYLE SHEET -->
-        <link rel="stylesheet" type="text/css" href="css/switcher.css">    
+        <link rel="stylesheet" type="text/css" href="css/switcher.css"> 
+        <!-- RESPONSIVE -->
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
 
 
         <!-- GOOGLE FONTS -->
@@ -70,7 +72,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
             <div class="page-content">
 
                 <!-- INNER PAGE BANNER -->
-                <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/about-banner.jpg);">
+                <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/gim-vehicle-banner.gif);">
                     <div class="overlay-main bg-black opacity-07"></div>
                     <div class="container">
                         <div class="wt-bnr-inr-entry">
@@ -92,7 +94,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                 <!-- BREADCRUMB ROW END -->
 
                 <!-- WHY CHOOSE US SECTION START  -->
-                <div class="section-full bg-gray p-t80 p-b120 bg-no-repeat bg-left-center" >
+                <div class="section-full bg-gray p-t80 p-b120 bg-no-repeat bg-left-center bg-left-center-margin" >
                     <div class="container">
                         <!-- TITLE START-->
 
@@ -105,7 +107,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                 foreach ($SERVICE as $info) {
                                     ?>
                                     <div class="col-md-4 col-sm-6 animate_line">
-                                        <div class="wt-icon-box-wraper  p-a30 center bg-white m-a5">
+                                        <div class="wt-icon-box-wraper  p-a30 center bg-white m-a5 service-1">
                                             <div class="icon-lg text-primary m-b20">
                                                 <img src="upload/service/<?php echo $info['image_name']; ?>" alt="">
                                             </div>

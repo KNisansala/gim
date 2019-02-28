@@ -11,10 +11,7 @@
                                 <div class="logo-footer clearfix p-b15">
                                     <a href="index.php"><img src="images/GIM-footer.png" width="230" height="67" alt=""/></a>
                                 </div>
-                                <p>Thewebmax ipsum dolor sit amet, consectetuer adipiscing elit,
-                                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore agna aliquam erat .   
-                                      wisi enim ad minim veniam, quis tation. sit amet, consec tetuer.
-                                      ipsum dolor sit amet, consectetuer adipiscing.ipsum dolor sit .
+                                <p>GIM General Trading & Construction was established on 2011,as a general trading company. Our primary forcas has been to serve building materials to civil engineering constructions.</p>
                                 </p>  
                             </div>
                         </div> 
@@ -128,43 +125,44 @@
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0">Address</h5>
-                                    <p>Galle Road,Galle</p>
+                                    <p>101/4,Kalalgoda Road,<br>Pannipitiya,Colombo,<br>Sri Lanka</p>
                                 </div>
                            </div>
                         </div>
                        <div class="col-md-3 col-sm-6  p-tb20 ">
-                           <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix ">
+                           <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix phone-box">
                                 <div class="icon-md text-primary">
                                     <span class="iconmoon-smartphone-1 footer-icon"></span>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0">Phone</h5>
-                                    <p class="m-b0">+41 555 888 9585</p>
-                                    <p>+41 555 888 9585</p>
+                                    <p class="m-b0">071-8163391</p>
+                                    <p>077-7261476</p>
+                                    011-2560738
                                 </div>
                            </div>
                        </div>
                        <div class="col-md-3 col-sm-6  p-tb20">
-                           <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
+                           <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix fax-box">
                                 <div class="icon-md text-primary">
                                     <span class="iconmoon-fax footer-icon"></span>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0">Fax</h5>
-                                    <p class="m-b0">FAX: (123) 123-4567</p>
-                                    <p>FAX: (123) 123-4567</p>
+                                    <p class="m-b0">FAX: 0112742787</p>
+                                    
                                 </div>
                             </div>
                         </div>
                        <div class="col-md-3 col-sm-6 p-tb20">
-                           <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
+                           <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix email-box">
                                 <div class="icon-md text-primary">
                                     <span class="iconmoon-email footer-icon"></span>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase m-b0">Email</h5>
-                                    <p class="m-b0">info@demo.com</p>
-                                    <p>info@demo1234.com</p>
+                                    <p class="m-b0">gimtrading.construction@gmail.com</p>
+                                    
                                 </div>
                             </div>
                         </div>
