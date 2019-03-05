@@ -1887,6 +1887,7 @@ ol.list-num-count.list-outline-none > li:before {
 -------------------------------------*/
 .about-types .wt-icon-box-wraper{
 	border-width:0px 0px 0px 3px;
+        text-align:center;
 }
 .wt-icon-box-wraper {
 	position:relative;

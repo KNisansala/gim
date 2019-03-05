@@ -75,7 +75,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     <div class="overlay-main bg-black opacity-07"></div>
                     <div class="container">
                         <div class="wt-bnr-inr-entry">
-                            <h1 class="text-white">Product</h1>
+                            <h1 class="text-white">Products</h1>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                     <div class="container">
                         <ul class="wt-breadcrumb breadcrumb-style-2">
                             <li><a href="./"><i class="fa fa-home"></i> Home</a></li>
-                            <li>Product</li>
+                            <li>Products</li>
                         </ul>
                     </div>
                 </div>
