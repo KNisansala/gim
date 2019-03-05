@@ -104,7 +104,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                             </div>
                             <div class="col-md-7 col-sm-12 col-xs-12">
                                 <div class="about-types row">
-                                    <div class="col-md-6 col-sm-4 col-xs-6 col-xs-100pc p-tb20">
+                                    <div class="col-md-6 col-sm-3 col-xs-6 col-xs-100pc p-tb20">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
                                                 <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-truck btn-icon" aria-hidden="true"></i></a>
@@ -115,7 +115,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-4 col-xs-6 col-xs-100pc p-tb20 ">
+                                    <div class="col-md-6 col-sm-3 col-xs-6 col-xs-100pc p-tb20 ">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
                                                 <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
@@ -126,7 +126,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-4 col-xs-6 col-xs-100pc p-tb20 ">
+                                    <div class="col-md-6 col-sm-3 col-xs-6 col-xs-100pc p-tb20 ">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
                                                 <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-check-circle-o" aria-hidden="true"></i></a>
@@ -137,7 +137,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-4 col-xs-6 col-xs-100pc p-tb20 ">
+                                    <div class="col-md-6 col-sm-3 col-xs-6 col-xs-100pc p-tb20 ">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
                                                 <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-picture-o btn-icon" aria-hidden="true"></i></a>
@@ -168,7 +168,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <span class="separator-right bg-primary"></span>
                                 </div>
                             </div>
-                            <p>Gim Trading Construction is a full service construction company specializing in commercial & residential construction.</p>
+                            <p>Gim General Trading & Construction is a full service construction company specializing in commercial & residential construction.</p>
                         </div>
                         <!-- TITLE END-->
                         <div class="section-content no-col-gap service-box-1">

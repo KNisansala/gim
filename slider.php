@@ -6,7 +6,7 @@
                 <div id="rev_slider_1014_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
                     <ul>
                         <!-- SLIDE 1 -->	
-                        <li data-index="rs-1000" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <li data-index="rs-1000" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 
                             <!-- MAIN IMAGE -->
                             <img src="images/main-slider/2.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
@@ -65,7 +65,7 @@
                                  font-weight: 700; 
                                  color: rgba(255, 255, 255, 1.00);
                                  border-width:0px;">
-                                <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary">gim</span> construction</span>
+                                <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary">gim<span> general trading</span></span> and construction</span>
                             </div>
 
                             <!-- LAYER NR. 3 [ for paragraph] -->
@@ -95,8 +95,7 @@
                                  font-weight: 500; 
                                  color: rgba(255, 255, 255, 0.85);
                                  border-width:0px;">
-                                <span style="font-family:'Roboto'; " class="res-text ">We offer all kind of building materials in Sri Lanka. 
-                                    and we transport building materials as well.We have a good international sourcing line for building materials if required for international projects.</span>
+                                
                             </div>
 
                             <!-- LAYER NR. 4 [ for readmore botton ] -->
@@ -131,7 +130,7 @@
                         <li data-index="rs-2000" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 
                             <!-- MAIN IMAGE -->
-                            <img src="images/main-slider/1.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
+                            <img src="images/main-slider/5.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
                             <!-- LAYERS -->
 
 
@@ -189,7 +188,7 @@
                                  color: rgba(255, 255, 255, 1.00);
                                  border-width:0px;">
                                 <div class="title1">
-                                <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary headding">gim</span> construction</span>
+                                <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary headding">gim<span> general trading</span></span> and construction</span>
                                 </div>
                             </div>
 
@@ -220,8 +219,7 @@
                                  font-weight: 500; 
                                  color: rgba(255, 255, 255, 0.85);
                                  border-width:0px;">
-                                <span style="font-family:'Roboto';" class="res-text ">We offer all kind of building materials in Sri Lanka. 
-                                    and we transport building materials as well.We have a good international sourcing line for building materials if required for international projects.</span>
+                                
                             </div>
 
                             <!-- LAYER NR. 4 [ for readmore botton ] -->
@@ -252,7 +250,7 @@
 
                         </li>
                         <!-- SLIDE 3 -->
-                        <li data-index="rs-3000" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <li data-index="rs-3000" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/5.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 
                             <!-- MAIN IMAGE -->
                             <img src="images/main-slider/3.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina/>
@@ -313,7 +311,7 @@
                                  color: rgba(255, 255, 255, 1.00);
                                  border-width:0px;">
                                 <div class="title1">
-                                <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary headding">gim</span> construction</span>
+                                <span class="text-uppercase" style="font-family:'Roboto' ;"><span class="text-primary headding">gim<span> general trading </span></span> and construction</span>
                                 </div>
                             </div>
 
@@ -344,8 +342,7 @@
                                  font-weight: 500; 
                                  color: rgba(255, 255, 255, 0.85);
                                  border-width:0px;">
-                                <span style="font-family:'Roboto';" class="res-text ">We offer all kind of building materials in Sri Lanka. 
-                                    and we transport building materials as well.We have a good international sourcing line for building materials if required for international projects.</span>
+                                
                             </div>
 
                             <!-- LAYER NR. 4 [ for readmore botton ] -->

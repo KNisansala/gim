@@ -74,7 +74,7 @@
                     <div class="overlay-main bg-black opacity-07"></div>
                     <div class="container">
                         <div class="wt-bnr-inr-entry">
-                            <h1 class="text-white">Contact</h1>
+                            <h1 class="text-white">Contact Us</h1>
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                     <div class="container">
                         <ul class="wt-breadcrumb breadcrumb-style-2">
                             <li><a href="./"><i class="fa fa-home"></i> Home</a></li>
-                            <li>Contact</li>
+                            <li>Contact Us</li>
                         </ul>
                     </div>
                 </div>
