@@ -163,8 +163,8 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
 /*-------------Order Form-------------*/
 
 .unt{
-   padding-left: 0px; 
-   padding-top: 30px;
+    padding-left: 0px; 
+    padding-top: 30px;
 }
 .prodct{
     padding-left:0px;
@@ -185,8 +185,8 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
     margin-bottom: -4px;
 }
 .border{
-   border: 2px solid;
-  border-color: #b2b2b2;
+    border: 2px solid;
+    border-color: #b2b2b2;
 }
 .border-1{
     padding-top: 34px;
@@ -205,19 +205,19 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .text
 }
 /*--------Footer------------*/
 .phone-box{
-  padding-bottom: 17px;  
+    padding-bottom: 17px;  
 }
 .fax-box{
-  padding-bottom: 51px;   
+    padding-bottom: 51px;   
 }
 .email-box{
-padding-bottom: 36px;
+    padding-bottom: 36px;
 }
 .bg-secondry-box-1{
     padding-bottom: 78px;
 }
 .bg-secondry-box-2{
-   padding-bottom: 24px; 
+    padding-bottom: 24px; 
 }
 /*------------About Us------------*/
 .content-box{
@@ -231,15 +231,15 @@ padding-bottom: 36px;
     border: 2px solid;
     border-radius: 50%;
     padding: 15px;
-   
+
 }
 .icon-edit:hover{
     color: #09aa0c;
 }
 .underline-1{
     margin-bottom: 13px;
-    
-    
+
+
 }
 .text-edit{
     text-align: center;
@@ -256,7 +256,7 @@ padding-bottom: 36px;
     text-align: center;
 }
 .squre{
-  background-color: white;
+    background-color: white;
 }
 
 .service-box-1{
@@ -264,4 +264,8 @@ padding-bottom: 36px;
 }
 .p-tb100-1{
     margin-bottom: -51px;
+}
+
+.content1 h5,p{
+    text-align: justify;
 }

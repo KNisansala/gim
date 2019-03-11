@@ -5,8 +5,8 @@
 $comany_name = "GIM";
 $website_name = "www.gim.com";
 $comConNumber = "+94 766367605";
-$comEmail = "info@galle.website";
-$from = 'igmpiyumini0615@gmail.com';
+$comEmail = "info@islandwide.website";
+$from = 'info@islandwide.website';
 
 
 //----------------------CAPTCHACODE---------------------
@@ -28,18 +28,14 @@ $visitor_city = $_POST['city'];
 $visitor_phone = $_POST['visitor_phone'];
 $products = $_POST['data'];
 
-//$subject = 'New Website Enquiry - ' . $_POST['subject'];
-//$message = $_POST['message'];
-
-
-//$subject = 'New Website Enquiry - Booking';
+$subject = 'New Website Enquiry - Order Product';
 
 
 date_default_timezone_set('Asia/Colombo');
 
 $todayis = date("l, F j, Y, g:i a");
 
-$site_link = "http://" . $_SERVER['HTTP_HOST'].'/roundtourssrilanka';
+$site_link = "http://" . $_SERVER['HTTP_HOST'].'/';
 
 
 include("mail-template.php");
@@ -58,8 +54,8 @@ $headers2 .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 // Sending mail
 
 if (
-        mail($comEmail,$company_message, $headers) &&
-        mail($visitor_email,$visitor_message, $headers2)) {
+        mail($comEmail, $subject, $company_message, $headers) &&
+        mail($visitor_email, $subject, $visitor_message, $headers2)) {
 
     $response['status'] = 'correct';
     $response['msg'] = "Your message has been sent successfully";

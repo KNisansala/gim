@@ -109,7 +109,7 @@
                                             <span class="separator-right bg-primary"></span>
                                         </div>
                                     </div>
-                                    <p>GIM General Trading & Construction was established on 2011, as a general trading company. Our primary forcas has been to serve building materials to civil engineering constructions. And we are in the construction field at about 9 years. Our company was registered under Construction Industry Development Authority (CIDA) in Sri Lanka. Our supply chain has been connected with International Construction Companies as well.</p>
+                                    <p>GIM General Trading & Construction was established on 2011, as a general trading company. Our primary focus has been to serve building materials to civil engineering constructions. And we are in the construction field at about 9 years. Our company was registered under Construction Industry Development Authority (CIDA) in Sri Lanka. Our supply chain has been connected with International Construction Companies as well.</p>
 
                                 </div>
                             </div>

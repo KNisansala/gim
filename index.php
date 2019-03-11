@@ -10,17 +10,17 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <!-- META -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="keywords" content="" />
+        <meta name="keywords" content="gim, GIM Genaral Trading & Construction, metals, bricks, sands, building materials ">
         <meta name="author" content="" />
         <meta name="robots" content="" />    
-        <meta name="description" content="" />
+        <meta name="description" content="GIM General Trading & Construction was established on 2011, as a general trading company. Our primary focus has been to serve building materials to civil engineering constructions.">
 
         <!-- FAVICONS ICON -->
         <link rel="icon" href="images/favi-gim.png" type="image/x-icon" />
         <link rel="shortcut icon" type="image/x-icon" href="images/favi-gim.png" />
 
         <!-- PAGE TITLE HERE -->
-        <title> Home Page | GIM Genaral Trading & Construction </title>
+        <title> Home Page | GIM General Trading & Construction </title>
 
         <!-- MOBILE SPECIFIC -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -96,7 +96,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             <span class="separator-right bg-primary"></span>
                                         </div>
                                     </div>
-                                    <p>GIM General Trading & Construction was established on 2011, as a general trading company. Our primary forcas has been to serve building materials to civil engineering constructions. And we are in the construction field at about 9 years. Our company was registered under Construction Industry Development Authority (CIDA) in Sri Lanka. Our supply chain has been connected with International Construction Companies as well.</p>
+                                    <p>GIM General Trading & Construction was established on 2011, as a general trading company. Our primary focus has been to serve building materials to civil engineering constructions. And we are in the construction field at about 9 years. Our company was registered under Construction Industry Development Authority (CIDA) in Sri Lanka. Our supply chain has been connected with International Construction Companies as well.</p>
 <!--                                    <p>
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with the .
                                     </p>-->
@@ -109,7 +109,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             <div class="icon-sm text-primary">
                                                 <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-truck btn-icon" aria-hidden="true"></i></a>
                                             </div>
-                                            <div class="icon-content">
+                                            <div class="icon-content content1">
                                                 <h5 class="wt-tilte text-uppercase m-b0">Transport</h5>
                                                 <p>We transport all kind of building materials in Sri Lanka.</p>
                                             </div>
@@ -120,7 +120,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             <div class="icon-sm text-primary">
                                                 <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
                                             </div>
-                                            <div class="icon-content">
+                                            <div class="icon-content content1">
                                                 <h5 class="wt-tilte text-uppercase m-b0">Supply</h5>
                                                 <p>Our supply chain has been connected <br>with International Construction <br>Companies.</p>
                                             </div>
@@ -131,9 +131,9 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             <div class="icon-sm text-primary">
                                                 <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-check-circle-o" aria-hidden="true"></i></a>
                                             </div>
-                                            <div class="icon-content">
+                                            <div class="icon-content content1">
                                                 <h5 class="wt-tilte text-uppercase m-b0 ">Quality Materials</h5>
-                                                <p>Lorem ipsum dolor sit piscing sed diam nonmy end .</p>
+                                                <p>We provide high quality building materials.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -142,9 +142,9 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             <div class="icon-sm text-primary">
                                                 <a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-picture-o btn-icon" aria-hidden="true"></i></a>
                                             </div>
-                                            <div class="icon-content">
+                                            <div class="icon-content content1">
                                                 <h5 class="wt-tilte text-uppercase m-b0">reliability</h5>
-                                                <p>Lorem ipsum dolor sit piscing sed diam nonmy end .</p>
+                                                <p>We will ensure the quality and reliability of our services.</p>
                                             </div>
                                         </div>
                                     </div>

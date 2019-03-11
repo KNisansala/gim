@@ -15,7 +15,7 @@ $(document).ready(function () {
 
                 html += '<div class="form-group">';
 
-                html += '<label>' + product + '(' + unit + ')</label>';
+                html += '<label>' + product + ' (' + unit + ')</label>';
                 html += '<div class="input-group">';
 
                 html += '<span class="input-group-btn">';
