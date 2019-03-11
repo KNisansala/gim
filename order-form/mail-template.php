@@ -30,7 +30,7 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
                                         <td width="40"></td>
                                         <td width="144">
                                             <a href= "' . $site_link . '" target="_blank"> '
-        . '<img src="' . $site_link . '/order-form/img/logo.png" border="0" alt=""/>
+        . '<img src="' . $site_link . '/order-form/img/gim_logo.png" border="0" alt=""/>
                                             </a>
                                         </td>
                                         <td width="393">
@@ -61,7 +61,7 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
                         </tr>
                         <tr>
                             <td align="center">
-                                <img src="' . $site_link . '/order-form/img/PROMO-GREEN2_02.jpg" alt="" width="598" height="323" border="0"/>
+                                <img src="' . $site_link . '/order-form/img/mail.jpg" alt="" width="598" height="323" border="0"/>
                             </td>
                         </tr>
                         <tr>
@@ -243,7 +243,6 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
     </body>
 </html>';
 
-echo $visitor_message;
 $company_message = ' 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">

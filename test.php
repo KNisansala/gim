@@ -1,216 +1,230 @@
-<div class="row m-b30">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Promotional email template</title>
+    </head>
 
-    <!-- COLUMNS 1 -->
-    <div class="col-md-3 col-sm-4 col-xs-6 col-xs-100pc m-b30">
-        <div class="wt-box wt-product-box">
-            <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
-                <img src="images/products/pic-5.jpg" alt="">
-                <div class="overlay-bx">
-                    <div class="overlay-icon">
-                        <a href="javascript:void(0);">
-                            <i class="fa fa-cart-plus wt-icon-box-xs"></i>
-                        </a>
-                        <a class="mfp-link" href="javascript:void(0);">
-                            <i class="fa fa-heart wt-icon-box-xs"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="wt-info  text-center">
-                <div class="p-a10 bg-white">
-                    <h4 class="wt-title">
-                        <a href="javascript:;">Five Martines</a>
-                    </h4>
-                    <span class="price">
-                        <del>
-                            <span><span class="Price-currencySymbol">£</span>3.00</span>
-                        </del> 
-                        <ins>
-                            <span><span class="Price-currencySymbol">£</span>2.00</span>
-                        </ins>
-                    </span>
-                    <div class="rating-bx">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div>
-                </div>
-                <div class="p-t10">
-                    <button class="site-button  m-r15" type="button">ADD TO CART  <i class="fa fa-angle-double-right"></i></button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- COLUMNS 2 -->
-    <div class="col-md-3 col-sm-4 col-xs-6 col-xs-100pc m-b30">
-        <div class="wt-box wt-product-box">
-            <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
-                <img src="images/products/pic-6.jpg" alt="">
-                <div class="overlay-bx">
-                    <div class="overlay-icon">
-                        <a href="javascript:void(0);">
-                            <i class="fa fa-cart-plus wt-icon-box-xs"></i>
-                        </a>
-                        <a class="mfp-link" href="javascript:void(0);">
-                            <i class="fa fa-heart wt-icon-box-xs"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="wt-info  text-center">
-                <div class="p-a10 bg-white">
-                    <h4 class="wt-title">
-                        <a href="javascript:;">Six Martines</a>
-                    </h4>
-                    <span class="price">
-                        <del>
-                            <span><span class="Price-currencySymbol">£</span>3.00</span>
-                        </del> 
-                        <ins>
-                            <span><span class="Price-currencySymbol">£</span>2.00</span>
-                        </ins>
-                    </span>
-                    <div class="rating-bx">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div>
-                </div>
-                <div class="p-t10">
-                    <button class="site-button  m-r15" type="button">ADD TO CART  <i class="fa fa-angle-double-right"></i></button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- COLUMNS 3 -->
-    <div class="col-md-3 col-sm-4 col-xs-6 col-xs-100pc m-b30">
-        <div class="wt-box wt-product-box">
-            <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
-                <img src="images/products/pic-7.jpg" alt="">
-                <div class="overlay-bx">
-                    <div class="overlay-icon">
-                        <a href="javascript:void(0);">
-                            <i class="fa fa-cart-plus wt-icon-box-xs"></i>
-                        </a>
-                        <a class="mfp-link" href="javascript:void(0);">
-                            <i class="fa fa-heart wt-icon-box-xs"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="wt-info  text-center">
-                <div class="p-a10 bg-white">
-                    <h4 class="wt-title">
-                        <a href="javascript:;">Seven Martines</a>
-                    </h4>
-                    <span class="price">
-                        <del>
-                            <span><span class="Price-currencySymbol">£</span>3.00</span>
-                        </del> 
-                        <ins>
-                            <span><span class="Price-currencySymbol">£</span>2.00</span>
-                        </ins>
-                    </span>
-                    <div class="rating-bx">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div>
-                    <div class="p-t10">
-                        <button class="site-button  m-r15" type="button">ADD TO CART  <i class="fa fa-angle-double-right"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- COLUMNS 4 -->
-    <div class="col-md-3 col-sm-4 col-xs-6 col-xs-100pc m-b30">
-        <div class="wt-box wt-product-box">
-            <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
-                <img src="images/products/pic-8.jpg" alt="">
-                <div class="overlay-bx">
-                    <div class="overlay-icon">
-                        <a href="javascript:void(0);">
-                            <i class="fa fa-cart-plus wt-icon-box-xs"></i>
-                        </a>
-                        <a class="mfp-link" href="javascript:void(0);">
-                            <i class="fa fa-heart wt-icon-box-xs"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="wt-info  text-center">
-                <div class="p-a10 bg-white">
-                    <h4 class="wt-title">
-                        <a href="javascript:;">Eight Martines</a>
-                    </h4>
-                    <span class="price">
-                        <del>
-                            <span><span class="Price-currencySymbol">£</span>3.00</span>
-                        </del> 
-                        <ins>
-                            <span><span class="Price-currencySymbol">£</span>2.00</span>
-                        </ins>
-                    </span>
-                    <div class="rating-bx">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div>
-                    <div class="p-t10">
-                        <button class="site-button  m-r15" type="button">ADD TO CART  <i class="fa fa-angle-double-right"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <body bgcolor="#8d8e90">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#8d8e90">
+            <tr>
+                <td>
+                    <table width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center">
+                        <tr>
+                            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="40"></td>
+                                        <td width="144">
+                                            <a href= "' . $site_link . '" target="_blank"> '
+        . '<img src="' . $site_link . '/order-form/img/logo.png" border="0" alt=""/>
+                                            </a>
+                                        </td>
+                                        <td width="393">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td height="46" align="right" valign="middle">
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td width="67%" align="right">
+                                                                    <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:18px; " >
+                                                                        <a href= "' . $site_link . '" style="color:#68696a; text-decoration:none; text-transform: uppercase;">
+                                                                            <h4>' . $website_name . '</h4>
+                                                                        </a>
+                                                                    </font>
+                                                                </td>
+                                                                <td width="4%">&nbsp;</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="30"><img src="' . $site_link . '/ordere-form/img/PROMO-GREEN2_01_04.jpg" width="393" height="30" border="0" alt=""/></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table></td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <img src="' . $site_link . '/order-form/img/PROMO-GREEN2_02.jpg" alt="" width="598" height="323" border="0"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" valign="middle">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="2%">&nbsp;</td>
+                                        <td width="96%" align="center" style="border-bottom:1px solid #000000" height="50">
+                                            <font style="font-family: Verdana, Geneva, sans-serif; color:#1400FF; font-size:18px; " >
+                                                   <h4>Order Products - ' . $comany_name . '</h4>
+                                            </font>
+                                        </td>
+                                        <td width="2%">&nbsp;</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="5%">&nbsp;</td>
+                                        <td width="90%" valign="middle">
+                                            <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; ">
+                                                 Hi ' . $visitor_name . ',
+                                                <br /><br />
+                                            </font>
+                                        </td>
+                                        <td width="5%">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%">&nbsp;</td>
+                                        <td width="90%" valign="middle">
+                                            <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
+                                               Thank you for visiting ' . $website_name . ' web site and contacting us. Your order has been sent to ' . $comany_name . ' and one of representative will be contact you shortly. 
+                                            </font>
+                                        </td>
+                                        <td width="5%">&nbsp;</td>
+                                    </tr>
+                                     <tr>
+                                        <td width="5%">&nbsp;<br /><br /></td>
+                                        <td width="90%" valign="middle">
+                                            <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
+                                               The details of your order are shown below.
+                                            </font>
+                                        </td>
+                                        <td width="5%">&nbsp;</td>
+                                    </tr>
+                                </table>
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="2%">&nbsp;</td>
+                                        <td width="96%" style="border-top:1px solid #000000" >
+                                            
+                                            <font style="font-family: Verdana, Geneva, sans-serif; color:#1400FF; font-size:14px; " >
+                                                   <h4>&nbsp;&nbsp;&nbsp;Customer Details</h4>
+                                            </font>
+                                            <ul>
+                                             <li>
+                                                    <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
+                                                         Name : ' . $visitor_name . '
+                                                    </font>
+                                                </li>
+                                                <li>
+                                                    <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
+                                                         Email : ' . $visitor_email . '
+                                                    </font>
+                                                </li>
+                                                <li>
+                                                    <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
+                                                         Phone Number : ' . $visitor_phone . '
+                                                    </font>
+                                                </li>
+                                                <li>
+                                                    <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
+                                                         City : ' . $visitor_city . '
+                                                    </font>
+                                                </li>
+                                                                                                 
+                                            </ul>
+                                            <font style="font-family: Verdana, Geneva, sans-serif; color:#1400FF; font-size:14px; " >
+                                                   <h4>&nbsp;&nbsp;&nbsp;Product Details</h4>
+                                            </font>
+                                            <ul>
+                                            ' . $product_list . '
+                                            </ul>
+                                        </td>
+                                        <td width="2%">&nbsp;</td>
+                                    </tr>
+                                </table>
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                      
+                                        <td width="5%">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%">&nbsp;</td>
+                                        <td width="90%" valign="middle">
+                                            <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
 
-</div>
-
-<!------------------->
-//<?php
-include_once(dirname(__FILE__) . '/class/include.php');
-
-$id = '';
-
-//localhost/gim/products.php?id=1
-
-if (isset($_GET['id'])) {
-    $id = $_GET['id'];
-}
-//?>
-
-//<?php
-$PRODUCT = new Product(NULL);
-$products = $PRODUCT->getProductsById($id);
-
-$PRODUCTS = Product::getProductsById($id);
-
-
-foreach ($PRODUCTS as $key => $product) {
-//    ?>
-    <div class="col-md-3 col-sm-6 col-xs-6 col-xs-100pc m-tb15">
-        <div class="wt-team-one bg-white p-a10">
-            <div class="wt-team-media">
-                <a href="javascript:void(0);"><img src="images/our-team/pic1.jpg" alt=""></a>
-            </div>
-            <div class="wt-team-info text-center bg-white p-a10">
-                <h4 class="wt-team-title"><a href="javascript:void(0);">Richard Wagner</a></h4>
-                <p>Building Worker</p>
-                
-            </div>
-        </div>
-    </div>
-    //<?php
-//}
-//?>
-
-<!---------------------->
+                                            </font>
+                                        </td>
+                                        <td width="5%">&nbsp;</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><img src="' . $site_link . '/PROMO-GREEN2_02/img/PROMO-GREEN2_07.jpg" width="598" height="7" style="display:block" border="0" alt=""/></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="2%" align="center">&nbsp;</td>
+                                        <td width="29%" align="center">
+                                            <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:8px; " >
+                                                <strong>Phone No : <br/> ' . $comConNumber . ' </strong>
+                                            </font>
+                                        </td>
+                                        <td width="2%" align="center">
+                                            <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:8px; " >
+                                              <strong>|</strong>
+                                            </font>
+                                        </td>
+                                        <td width="30%" align="center">
+                                            <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:8px; " >
+                                                <strong>Website : <br/> ' . $website_name . '  </strong>
+                                            </font>
+                                        </td>
+                                        <td width="2%" align="center">
+                                            <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:8px; " >
+                                                <strong>|</strong>
+                                            </font>
+                                        </td>
+                                        <td width="25%" align="center">
+                                            <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:8px; " >
+						 <strong>E-mail :  <br/> ' . $comEmail . '</strong>
+                                            </font>
+                                        </td> 
+                                    </tr>
+                                </table>
+                                <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                                    <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                                    <tr>
+                                        <td width="3%" align="center">&nbsp;</td>
+                                        <td width="28%" align="center"><font style="font-family: Verdana, Geneva, sans-serif; color:#1400FF; font-size:9px; " > © ' . date('Y') . ' Copyright ' . $comany_name . '</font> </td>
+                                        <td width="10%" align="center"></td>
+                                        <td width="3%" align="center"></td> 
+                                        <td width="30%" align="right">
+                                        <font style="font-family: Verdana, Geneva, sans-serif; color:#1400FF; font-size:9px; " > 
+                                        <a href="http://sublime.lk/">
+                                        web solution by: Sublime Holdings</a>
+                                        </font>
+                                        </td>
+                                        <td width="5%">&nbsp;</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table></td>
+            </tr>
+        </table>
+    </body>
+</html>

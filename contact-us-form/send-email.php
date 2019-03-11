@@ -5,8 +5,8 @@
 $comany_name = "gim";
 $website_name = "www.gim.com";
 $comConNumber = "+94 766367605";
-$comEmail = "info@galle.website";
-$from = 'info@galle.website';
+$comEmail = "info@islandwide.website";
+$from = 'info@islandwide.website';
 
 
 //----------------------CAPTCHACODE---------------------
@@ -29,15 +29,15 @@ $visitor_phone = $_POST['visitor_phone'];
 $subject = 'New Website Enquiry - ' . $_POST['subject'];
 $message = $_POST['message'];
 
+$subject = 'New Website Enquiry ';
 
-//$subject = 'New Website Enquiry - Booking';
 
 
 date_default_timezone_set('Asia/Colombo');
 
 $todayis = date("l, F j, Y, g:i a");
 
-$site_link = "http://" . $_SERVER['HTTP_HOST'].'/roundtourssrilanka';
+$site_link = "http://" . $_SERVER['HTTP_HOST'].'/';
 
 
 include("mail-template.php");

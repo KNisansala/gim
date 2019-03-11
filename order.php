@@ -9,17 +9,17 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <!-- META -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="keywords" content="" />
+        <meta name="keywords" content="gim, GIM Genaral Trading & Construction, metals, bricks, sands, building materials, order products, order now">
         <meta name="author" content="" />
         <meta name="robots" content="" />    
-        <meta name="description" content="" />
+        <meta name="description" content="GIM General Trading & Construction was established on 2011, as a general trading company. Our primary focus has been to serve building materials to civil engineering constructions.">
 
         <!-- FAVICONS ICON -->
         <link rel="icon" href="images/favi-gim.png" type="image/x-icon" />
         <link rel="shortcut icon" type="image/x-icon" href="images/favi-gim.png" />
 
         <!-- PAGE TITLE HERE -->
-        <title>Order | GIM Genaral Trading & Construction </title>
+        <title>Order | GIM General Trading & Construction </title>
 
         <!-- MOBILE SPECIFIC -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -88,7 +88,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                 <div class="bg-gray-light p-tb20">
                     <div class="container">
                         <ul class="wt-breadcrumb breadcrumb-style-2">
-                            <li><a href="javascript:void(0);"><i class="fa fa-home"></i> Home</a></li>
+                            <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
                             <li>Order Now</li>
                         </ul>
                     </div>

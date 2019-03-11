@@ -17,7 +17,7 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
                                         <td width="40"></td>
                                         <td width="144">
                                             <a href= "' . $site_link . '" target="_blank"> '
-        . '<img src="' . $site_link . '/contact-us-form/img/logo.png" border="0" alt=""/>
+        . '<img src="' . $site_link . '/contact-us-form/img/gim_logo.png" border="0" alt=""/>
                                             </a>
                                         </td>
                                         <td width="393">
@@ -48,7 +48,7 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
                         </tr>
                         <tr>
                             <td align="center">
-                                <img src="' . $site_link . '/contact-us-form/img/PROMO-GREEN2_02.jpg" alt="" width="598" height="323" border="0"/>
+                                <img src="' . $site_link . '/contact-us-form/img/mail.jpg" alt="" width="598" height="323" border="0"/>
                             </td>
                         </tr>
                         <tr>
