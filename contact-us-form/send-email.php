@@ -2,10 +2,10 @@
 
 //----------------------Company Information---------------------
 
-$comany_name = "gim";
-$website_name = "www.gim.com";
-$comConNumber = "+94 766367605";
-$comEmail = "info@islandwide.website";
+$comany_name = "GIM General Trading & Construction";
+$website_name = "www.gimlk.com";
+$comConNumber = "(+94) 71 8163391";
+$comEmail = "gimtrading.construction@gmail.com";
 $from = 'info@islandwide.website';
 
 

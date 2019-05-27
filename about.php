@@ -97,7 +97,7 @@
                         <div class="row">
                             <div class="col-md-5 col-sm-5 col-xs-6 col-xs-100pc">
                                 <div class="about-com-pic">
-                                    <img src="images/banner/PIC 2.jpg" alt="" class="img-responsive"/>
+                                    <img src="images/banner/about-img.jpg" alt="" class="img-responsive"/>
                                 </div>
                             </div>
                             <div class="col-md-7 col-sm-7 col-xs-6 col-xs-100pc content-box">
