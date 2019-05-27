@@ -147,7 +147,7 @@
                                     </div>      
                                     <div class="map-wrapper">
                                         <div class="map-area map">
-                                            <div id="googleMap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.1888807118708!2d79.94583841412893!3d6.867956420969962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae251ac4c9a9649%3A0xb1340da88148b500!2s101+Kalalgoda+Rd%2C+Sri+Jayawardenepura+Kotte+10230!5e0!3m2!1sen!2slk!4v1551181162983" width="100%" height="804" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                                            <div id="googleMap"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63371.854177972215!2d79.8563022!3d6.9215478!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9047e58a007c779c!2sGIM+General+Trading+And+Construction+(+Pvt)+Ltd!5e0!3m2!1sen!2slk!4v1558588817967!5m2!1sen!2slk" width="100%" height="804" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 
                                         </div>
                                     </div>
