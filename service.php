@@ -115,7 +115,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                                 <h5 class="wt-tilte text-uppercase">
                                                     <?php echo $info['title']; ?>
                                                 </h5>
-                                                <p><?php echo $info['description']; ?></p>
+                                                <?php echo $info['description']; ?>
                                             </div>
                                         </div>
                                     </div>

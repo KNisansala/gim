@@ -15,68 +15,9 @@ include_once(dirname(__FILE__) . '/class/include.php');
                             <a href="index.php"><img src="images/GIM-footer.png" width="230" height="67" alt=""/></a>
                         </div>
                         <p>GIM General Trading & Construction was established on 2011,as a general trading company. Our primary forcas has been to serve building materials to civil engineering constructions.</p>
-                        </p>  
+                         
                     </div>
                 </div> 
-                <!-- RESENT POST -->
-                <!--                        <div class="col-md-3 col-sm-6">
-                                            <div class="widget recent-posts-entry-date">
-                                                <h4 class="widget-title">Product Categories</h4>
-                                                <div class="widget-post-bx">
-                                                    <div class="bdr-light-blue widget-post clearfix  bdr-b-1 m-b10 p-b10">
-                                                        <div class="wt-post-date text-center text-uppercase text-white p-t5">
-                                                            <strong>20</strong>
-                                                            <span>Mar</span>
-                                                        </div>
-                                                        <div class="wt-post-info">
-                                                            <div class="wt-post-header">
-                                                                <h6 class="post-title"><a href="blog-single.html">Blog title first </a></h6>
-                                                            </div>
-                                                            <div class="wt-post-meta">
-                                                                <ul>
-                                                                    <li class="post-author"><i class="fa fa-user"></i>By Admin</li>
-                                                                    <li class="post-comment"><i class="fa fa-comments"></i> 28</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="bdr-light-blue widget-post clearfix  bdr-b-1 m-b10 p-b10">
-                                                        <div class="wt-post-date text-center text-uppercase text-white p-t5">
-                                                            <strong>30</strong>
-                                                            <span>Mar</span>
-                                                        </div>
-                                                        <div class="wt-post-info">
-                                                            <div class="wt-post-header">
-                                                                <h6 class="post-title"><a href="blog-single.html">Blog title first </a></h6>
-                                                            </div>
-                                                            <div class="wt-post-meta">
-                                                                <ul>
-                                                                    <li class="post-author"><i class="fa fa-user"></i>By Admin</li>
-                                                                    <li class="post-comment"><i class="fa fa-comments"></i> 29</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="bdr-light-blue widget-post clearfix  bdr-b-1 m-b10 p-b10">
-                                                        <div class="wt-post-date text-center text-uppercase text-white p-t5">
-                                                            <strong>31</strong>
-                                                            <span>Mar</span>
-                                                        </div>
-                                                        <div class="wt-post-info">
-                                                            <div class="wt-post-header">
-                                                                <h6 class="post-title"><a href="#">Blog title first </a></h6>
-                                                            </div>
-                                                            <div class="wt-post-meta">
-                                                                <ul>
-                                                                    <li class="post-author"><i class="fa fa-user"></i>By Admin</li>
-                                                                    <li class="post-comment"><i class="fa fa-comments"></i> 30</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>      -->
                 <div class="col-md-3 col-sm-6">
                     <div class="widget widget_services">
                         <h4 class="widget-title">Product Categories</h4>
