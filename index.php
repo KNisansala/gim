@@ -94,9 +94,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                         </div>
                                     </div>
                                     <p>GIM General Trading & Construction was established on 2011, as a general trading company. Our primary focus has been to serve building materials to civil engineering constructions. And we are in the construction field at about 9 years. Our company was registered under Construction Industry Development Authority (CIDA) in Sri Lanka. Our supply chain has been connected with International Construction Companies as well.</p>
-<!--                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with the .
-                                    </p>-->
+
                                 </div>
                             </div>
                             <div class="col-md-7 col-sm-12 col-xs-12">
@@ -230,14 +228,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
                                                 <img src="upload/product-type/thumb/<?php echo $type['image_name']; ?>" alt="">
                                                 <div class="overlay-bx">
-<!--                                                    <div class="overlay-icon">
-                                                        <a href="javascript:void(0);">
-                                                            <i class="fa fa-cart-plus wt-icon-box-xs"></i>
-                                                        </a>
-                                                        <a class="mfp-link" href="javascript:void(0);">
-                                                            <i class="fa fa-heart wt-icon-box-xs"></i>
-                                                        </a>
-                                                    </div>-->
+
                                                 </div>
                                             </div>
                                             <div class="wt-info  text-center">
@@ -268,7 +259,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                 <!-- SERVICES CONTENT END -->  
 
                 <!-- TESTIMONIAL SECTION START -->
-                <div class="section-full p-t80 p-b50 overlay-wraper bg-parallax" data-stellar-background-ratio="0.5" style="background-image:url(images/background/bg3.jpg);">
+                <div class="section-full p-t80 p-b50 overlay-wraper bg-parallax" data-stellar-background-ratio="0.5" style="background-image:url(images/background/bg3.gif);">
                     <div class="overlay-main bg-black opacity-07"></div>
                     <div class="container">
                         <!-- TITLE START -->
@@ -301,7 +292,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                                 <span class="testimonial-position"><?php echo $info['title']; ?></span>
                                             </div>
                                             <div class="testimonial-text">
-                                                <p> <?php echo $info['comment']; ?></p>
+                                                 <?php echo $info['comment']; ?>
                                             </div>
                                         </div>
                                     </div>

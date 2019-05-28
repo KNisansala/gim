@@ -182,26 +182,6 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                                         </div>
                                                     </div>
                                                     <div class="qty-container qty-container-<?php echo $type['id']; ?> col-md-12"></div>
-<!--                                                    <div class="col-md-4 qty">
-                                                        <div class="form-group">
-                                                            <label>Quantity (<?php echo $type['unit']; ?>)</label>
-                                                            <div class="input-group">
-
-                                                                <span class="input-group-btn">
-                                                                    <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="qty-<?php echo $type['id']; ?>">
-                                                                        <i class="fa fa-minus"></i>
-                                                                    </button>
-                                                                </span>
-                                                                <input name="qty-<?php echo $type['id']; ?>" id="qty-<?php echo $type['id']; ?>" class="form-control input-number" value="0" min="0" max="10000" type="text">
-                                                                <span class="input-group-btn">
-                                                                    <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="qty-<?php echo $type['id']; ?>">
-                                                                        <i class="fa fa-plus"></i>
-                                                                    </button>
-                                                                </span>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>-->
                                                 </div>
                                                 <?php
                                             }
@@ -223,47 +203,12 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                             </div>  
 
                                             <div class="col-xs-12 col-sm-6 ">
-
-<!--                                                <div class="col-sm-4">
-                                                    <div class="div-check check1">
-
-
-                                                    </div>
-                                                </div>-->
                                                 <div class="col-sm-8 text-right">
 
                                                 </div> 
                                             </div>
                                         </div> 
-                                    <!------------------------------------------------------>
-                                    
-<!--                                    <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label><?php echo $type['name']; ?></label>
-                                                        <div class="input-group">
-                                                            <span class="input-group-addon"><i class="fa fa-product-hunt"></i></span>
-                                                            <select class="form-control" id="product" name="Product" multiple>
-                                                                <option> -- Please Select </option>
-                                                                <?php
-                                                                $PRODUCT = new Product(NULL);
-                                                                $products = $PRODUCT->getProductsById($type['id']);
-                                                                foreach ($products as $product) {
-                                                                    ?> 
-                                                                    <option value="<?php echo $product['id']; ?>"><?php echo $product['name']; ?></option>
-                                                                    <?php
-                                                                }
-                                                                ?> 
-                                                            </select>
-
-                                                        </div>
-                                                    </div>
-                                                </div>-->
-                                    
-                                    
-                                    
-                                    <!------------------------------------------------------>
-
-                                        <button class="site-button " id="btnSubmit" type="submit">Order Now <i class="fa fa-angle-double-right"></i></button>
+                                    <button class="site-button " id="btnSubmit" type="submit">Order Now <i class="fa fa-angle-double-right"></i></button>
                                     
                                           <div id="dismessage" align="center" class="msg-success"></div>
                                     <!--</form>-->

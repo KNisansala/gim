@@ -100,36 +100,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
 
                         <!-- CAROUSEL -->
                         <div class="section-content">
-<!--                            <div class="col-md-4 col-sm-4 col-xs-6 col-xs-100pc m-b30">
-                                <div class="wt-box wt-product-box">
-                                    <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
-                                        <img src="images/products/pic-5.jpg" alt="">
-                                        <div class="overlay-bx">
-                                            <div class="overlay-icon">
-                                                <a href="javascript:void(0);">
-                                                    <i class="fa fa-cart-plus wt-icon-box-xs"></i>
-                                                </a>
-                                                <a class="mfp-link" href="javascript:void(0);">
-                                                    <i class="fa fa-heart wt-icon-box-xs"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="wt-info  text-center">
-                                        <div class="p-a10 bg-white">
-                                            <h4 class="wt-title">
-                                                <a href="products.php">Five Martines</a>
-                                            </h4>
 
-                                        </div>
-                                        <div class="p-t10">
-                                            <button class="site-button  m-r15" type="button">View  <i class="fa fa-angle-double-right"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>-->
-                            
-                            <!-------------foreach---------------->
                              <div class="row">
                     <?php
                     $PRODUCT_TYPE = ProductType::all();
@@ -140,14 +111,6 @@ include_once(dirname(__FILE__) . '/class/include.php');
                                     <div class="wt-thum-bx wt-img-overlay1 wt-img-effect zoom">
                                         <img src="upload/product-type/thumb/<?php echo $type['image_name']; ?>" alt="">
                                         <div class="overlay-bx">
-<!--                                            <div class="overlay-icon">
-                                                <a href="javascript:void(0);">
-                                                    <i class="fa fa-cart-plus wt-icon-box-xs"></i>
-                                                </a>
-                                                <a class="mfp-link" href="javascript:void(0);">
-                                                    <i class="fa fa-heart wt-icon-box-xs"></i>
-                                                </a>
-                                            </div>-->
                                         </div>
                                     </div>
                                     <div class="wt-info  text-center">

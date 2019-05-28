@@ -118,7 +118,7 @@
                                     <div class="col-md-4 col-sm-4 col-xs-4 col-xs-100pc p-tb20 squre res-squre">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
-                                                <!--<a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-truck btn-icon" aria-hidden="true"></i></a>-->
+                                                
                                             </div>
                                             <div class="icon-content icon-content-text">
                                                 <i class="fa fa-eye icon-edit res-icon-edit"></i>
@@ -136,7 +136,7 @@
                                     <div class="col-md-4 col-sm-4 col-xs-4 col-xs-100pc p-tb20 squre">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
-                                                <!--<a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-building btn-icon" aria-hidden="true"></i></a>-->
+                                                
                                             </div>
                                             <div class="icon-content icon-content-text">
                                                 <i class="fa fa-rocket icon-edit res-icon-edit"></i>
@@ -154,7 +154,7 @@
                                     <div class="col-md-4 col-sm-4 col-xs-4 col-xs-100pc p-tb20 squre">
                                         <div class="wt-icon-box-wraper left">
                                             <div class="icon-sm text-primary">
-                                                <!--<a href="#" class="icon-cell p-t5 center-block"><i class="fa fa-gavel btn-icon" aria-hidden="true"></i></a>-->
+                                                
                                             </div>
                                             <div class="icon-content icon-content-text">
                                                 <i class="fa fa-handshake-o icon-edit res-icon-edit"></i>
