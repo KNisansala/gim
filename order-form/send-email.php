@@ -28,7 +28,7 @@ $visitor_city = $_POST['city'];
 $visitor_phone = $_POST['visitor_phone'];
 $products = $_POST['data'];
 
-$subject = 'New Website Enquiry - Order Product';
+$subject = 'New Order Product Enquiry';
 
 
 date_default_timezone_set('Asia/Colombo');

@@ -38,9 +38,6 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
                                                         </table>
                                                     </td>
                                                 </tr>
-                                                <tr>
-                                                    <td height="30"><img src="' . $site_link . '/contact-us-form/img/PROMO-GREEN2_01_04.jpg" width="393" height="30" border="0" alt=""/></td>
-                                                </tr>
                                             </table>
                                         </td>
                                     </tr>
@@ -120,28 +117,22 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
                                                          Email : ' . $visitor_email . '
                                                     </font>
                                                 </li>
-                                                                                                 
+                                                <li>
+                                                    <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
+                                                         Contact Number : ' . $visitor_phone . '
+                                                    </font>
+                                                </li>
+                                                                                                                                                   
+                                            </ul>
+                                            
+                                            <ul>
+                                            ' . $message . '
                                             </ul>
                                         </td>
-                                        <td width="2%">&nbsp;</td>
+                                        <td width="2%">&nbsp;  </td>
                                     </tr>
                                 </table>
-                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                    <tr>
-                                      
-                                        <td width="5%">&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td width="5%">&nbsp;</td>
-                                        <td width="90%" valign="middle">
-                                            <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
-                                               ' . $visitor_phone . '
-                                            </font>
-                                        </td>
-                                        <td width="5%">&nbsp;</td>
-                                    </tr>
-                                </table>
-                            </td>
+                              </td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
@@ -299,26 +290,27 @@ $company_message = '
                                                     </font>
                                                 </li>
                                                 
+                                                 <li>
+                                                    <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
+                                                         Contact Number : ' . $visitor_phone . '
+                                                    </font>
+                                                </li>
+                                                
+                                                <li>
+                                                    <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
+                                                         Message : ' . $message . '
+                                                    </font>
+                                                </li>
+                                                
+
+
+                                                
                                             </ul>
                                         </td>
                                         <td width="2%">&nbsp;</td>
                                     </tr>
                                 </table>
-                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                    <tr>
-                                                                        <td width="5%">&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td width="5%">&nbsp;</td>
-                                        <td width="90%" valign="middle">
-                                            <font style="font-family: Verdana, Geneva, sans-serif; color:#68696a; font-size:14px; " >
-                                               ' . $visitor_phone . '
-                                            </font>
-                                        </td>
-                                        <td width="5%">&nbsp;</td>
-                                    </tr>
-                                </table>
-                            </td>
+                                                            </td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
