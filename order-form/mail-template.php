@@ -51,9 +51,6 @@ $visitor_message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
                                                         </table>
                                                     </td>
                                                 </tr>
-                                                <tr>
-                                                    <td height="30"><img src="' . $site_link . '/ordere-form/img/PROMO-GREEN2_01_04.jpg" width="393" height="30" border="0" alt=""/></td>
-                                                </tr>
                                             </table>
                                         </td>
                                     </tr>

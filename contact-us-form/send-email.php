@@ -29,7 +29,6 @@ $visitor_phone = $_POST['visitor_phone'];
 $subject = 'New Website Enquiry - ' . $_POST['subject'];
 $message = $_POST['message'];
 
-$subject = 'New Website Enquiry ';
 
 
 
@@ -37,7 +36,7 @@ date_default_timezone_set('Asia/Colombo');
 
 $todayis = date("l, F j, Y, g:i a");
 
-$site_link = "http://" . $_SERVER['HTTP_HOST'].'/';
+$site_link = "http://" . $_SERVER['HTTP_HOST'] . '/';
 
 
 include("mail-template.php");
@@ -56,9 +55,9 @@ $headers2 .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 // Sending mail
 
 if (
-        mail($comEmail,$company_message, $headers) &&
-        mail($visitor_email,$visitor_message, $headers2)) {
-
+        mail($comEmail, $subject, $company_message, $headers) &&
+        mail($visitor_email, $subject, $visitor_message, $headers2)) {
+    
     $response['status'] = 'correct';
     $response['msg'] = "Your message has been sent successfully";
 //"Your message has been sent successfully"
