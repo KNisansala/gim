@@ -17,7 +17,7 @@ include_once(dirname(__FILE__) . '/class/include.php');
         <link rel="shortcut icon" type="image/x-icon" href="images/favi-gim.png" />
 
         <!-- PAGE TITLE HERE -->
-        <title>Home Page | GIM General Trading & Construction</title>
+        <title>Construction Materials Suppliers in Sri Lanka |  GIM General Trading & Construction</title>
 
         <!-- MOBILE SPECIFIC -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
